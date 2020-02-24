@@ -14,8 +14,8 @@
  * ====================================================================================================================*/
 @font-face {
   font-family: 'flexslider-icon';
-  src: url('../fonts/flexslider-icon.eot');
-  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  src: url('https://cdn.statically.io/gh/adicore/file/58617182/suntour/fonts/flexslider-icon.eot');
+  src: url('https://cdn.statically.io/gh/adicore/file/58617182/suntour/fonts/flexslider-icon.eot') format('embedded-opentype'), url('https://github.com/adicore/file/blob/master/suntour/fonts/flexslider-icon.woff') format('woff'), url('https://cdn.statically.io/gh/adicore/file/bbf194f7/suntour/fonts/flexslider-icon.ttf') format('truetype'), url('https://cdn.statically.io/gh/adicore/file/bbf194f7/suntour/fonts/flexslider-icon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
