@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.eot');
-  src: url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/nonid/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.woff') format('woff'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.ttf') format('truetype'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.svg') format('svg');
+  src: url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('https://cdn.statically.io/gh/adicore/file/f877fd01/suntour/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.woff') format('woff'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.ttf') format('truetype'), url('https://cdn.statically.io/gh/adicore/file/d437e4c1/suntour/fonts/fontawesome-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
