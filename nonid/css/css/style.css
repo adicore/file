@@ -25,13 +25,13 @@
 * 1. imported styles
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900");
-@import url("bootstrap.min.css");
-@import url("font-awesome.min.css");
-@import url("owl.carousel.css");
-@import url("animate.css");
-@import url("owl.theme.default.min.css");
-@import url("jquery.bxslider.min.css");
-@import url("../plugins/nonid-icon/style.css");
+@import url("https://cdn.statically.io/gh/adicore/file/999ded46/nonid/css/css/bootstrap.min.css");
+@import url("https://cdn.statically.io/gh/adicore/file/d45afaec/nonid/css/css/font-awesome.min.css");
+@import url("https://cdn.statically.io/gh/adicore/file/d45afaec/nonid/css/css/owl.carousel.css");
+@import url("https://cdn.statically.io/gh/adicore/file/d45afaec/nonid/css/css/animate.css");
+@import url("https://cdn.statically.io/gh/adicore/file/d45afaec/nonid/css/css/owl.theme.default.min.css");
+@import url("https://cdn.statically.io/gh/adicore/file/d45afaec/nonid/css/css/jquery.bxslider.min.css");
+@import url("https://cdn.statically.io/gh/adicore/file/836067d0/nonid/plugins/nonid-icon/style.css");
 /*
 * 2. common styles
 */
@@ -507,7 +507,7 @@ hr.style-one {
 * 4. banner styles
 */
 .banner-one {
-  background: transparent url(../images/banner-bg-1-1.png) right top no-repeat;
+  background: transparent url(https://res.cloudinary.com/webzite/image/upload/v1582525040/Nonid/img/banner-bg-1-1.png) right top no-repeat;
   background-size: cover;
   padding-top: 315px;
   padding-bottom: 147px;
@@ -594,7 +594,7 @@ hr.style-one {
 }
 
 .banner-one__home-two {
-  background-image: url(../images/banner-bg-1-2.jpg);
+  background-image: url(https://res.cloudinary.com/webzite/image/upload/v1582525514/Nonid/img/banner-bg-1-2.jpg);
 }
 .banner-one__home-two .block-title__text {
   color: #fff;
@@ -885,7 +885,7 @@ hr.style-one {
 .blog-one {
   padding-top: 190px;
   padding-bottom: 90px;
-  background: transparent url(../images/blog-bg-1-1.png) center center no-repeat;
+  background: transparent url(https://res.cloudinary.com/webzite/image/upload/v1582523737/Nonid/img/blog-bg-1-1.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -1592,7 +1592,7 @@ hr.style-one {
 * 9. testimonials styles
 */
 .testimonials-style-one {
-  background: transparent url(../images/testi-bg-1-1.png) center top no-repeat;
+  background: transparent url(https://res.cloudinary.com/webzite/image/upload/v1582524024/Nonid/img/testi-bg-1-1.png) center top no-repeat;
   padding-top: 530px;
   padding-bottom: 120px;
   background-size: cover;
@@ -1807,7 +1807,7 @@ hr.style-one {
 * 10. inner-banner styles
 */
 .inner-banner {
-  background: #2e3d62 url(../images/inner-banner-bg-1-1.jpg) center center no-repeat;
+  background: #2e3d62 url(https://res.cloudinary.com/webzite/image/upload/v1582525859/Nonid/img/inner-banner-bg-1-1.jpg) center center no-repeat;
   background-size: cover;
   padding-bottom: 120px;
   padding-top: 188px;
@@ -1999,7 +1999,7 @@ hr.style-one {
 * 12. cta styles
 */
 .cta-one {
-  background: transparent url(../images/cta-bg-1-1.png) center center no-repeat;
+  background: transparent url(https://res.cloudinary.com/webzite/image/upload/v1582524349/Nonid/img/cta-bg-1-1.png) center center no-repeat;
   background-size: cover;
   padding-top: 205px;
   padding-bottom: 195px;
@@ -2227,7 +2227,7 @@ hr.style-one {
 }
 
 .cta-three {
-  background: transparent url(../images/cta-bg-1-2.png) bottom center no-repeat;
+  background: transparent url(https://res.cloudinary.com/webzite/image/upload/v1582524698/Nonid/img/cta-bg-1-2.png) bottom center no-repeat;
   background-size: cover;
   padding-bottom: 220px;
   padding-top: 382px;
