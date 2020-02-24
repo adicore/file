@@ -76,7 +76,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('../img/fancybox_sprite.png');
+	background-image: url('https://1.bp.blogspot.com/-SHjbgOEsjrc/XlOtBVZcQYI/AAAAAAAADsk/ypLZy7j9bzU4E_re9jKbS4D3ssDB7c1_gCLcBGAsYHQ/s1600/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -94,7 +94,7 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('../img/fancybox_loading.gif') center center no-repeat;
+	background: url('https://1.bp.blogspot.com/-ODh-Jgaqh5s/XlOs9x7gTSI/AAAAAAAADsY/7CJ6u00whro_dg63Hh5ZwGQpjUrLQgCMQCLcBGAsYHQ/s1600/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -183,7 +183,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('../img/fancybox_overlay.png');
+	background: url('https://1.bp.blogspot.com/-_5SSZ3I3oD4/XlOtAjmFKoI/AAAAAAAADsg/6E0hRGYXQPAHFGOzx6BIdQz3kg5trD0kACLcBGAsYHQ/s1600/fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
@@ -262,12 +262,12 @@
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('../img/fancybox_sprite@2x.png');
+		background-image: url('https://1.bp.blogspot.com/-mSsB6qh3wEQ/XlOtCQwqNtI/AAAAAAAADso/D1rSll85G1sEoDaMrve4EY7bX6T8pZOzgCLcBGAsYHQ/s1600/fancybox_sprite%25402x.png');
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 
 	#fancybox-loading div {
-		background-image: url('../img/fancybox_loading@2x.gif');
+		background-image: url('https://1.bp.blogspot.com/-DZdI6qK3ZKI/XlOs-7HsS3I/AAAAAAAADsc/w23vunM1vJwDDHSdeIdB358T8UZ6yQtSQCLcBGAsYHQ/s1600/fancybox_loading%25402x.gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
