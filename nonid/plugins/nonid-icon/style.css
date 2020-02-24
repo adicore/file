@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'nonid-icon';
-  src:  url('fonts/nonid-icon.eot?10usmn');
-  src:  url('fonts/nonid-icon.eot?10usmn#iefix') format('embedded-opentype'),
-    url('fonts/nonid-icon.ttf?10usmn') format('truetype'),
-    url('fonts/nonid-icon.woff?10usmn') format('woff'),
-    url('fonts/nonid-icon.svg?10usmn#nonid-icon') format('svg');
+  src:  url('https://cdn.statically.io/gh/adicore/file/8d0c6e0a/nonid/plugins/nonid-icon/fonts/nonid-icon.eot');
+  src:  url('https://cdn.statically.io/gh/adicore/file/8d0c6e0a/nonid/plugins/nonid-icon/fonts/nonid-icon.eot') format('embedded-opentype'),
+    url('https://cdn.statically.io/gh/adicore/file/8d0c6e0a/nonid/plugins/nonid-icon/fonts/nonid-icon.ttf') format('truetype'),
+    url('https://cdn.statically.io/gh/adicore/file/8d0c6e0a/nonid/plugins/nonid-icon/fonts/nonid-icon.woff') format('woff'),
+    url('https://cdn.statically.io/gh/adicore/file/8d0c6e0a/nonid/plugins/nonid-icon/fonts/nonid-icon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
