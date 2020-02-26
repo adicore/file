@@ -536,7 +536,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff}
 .insurence-right p,.insurence-left p{max-width:445px}
 .insurence-right img,.insurence-left img{width:100%}
 .list-wrap{background:#fbfcff;max-width:445px;padding:30px}
-.list-wrap ul{list-style-image:url("/images/bullet.png")}
+.list-wrap ul{list-style-image:url("https://cdn.statically.io/gh/adicore/file/bd84ffb1/travelacer/trains/bullet.png")}
 .list-wrap li{padding-left:12px;font-weight:500;font-size:14px;margin-bottom:15px;color:#222}
 @media(max-width:991px){.img-one{margin-bottom:45px}
 }.blog-home-banner{background:url(../img/blog/blog-home-banner.jpg) bottom;background-size:cover;padding:130px 0}
