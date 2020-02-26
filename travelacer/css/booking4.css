@@ -1,0 +1,345 @@
+.m-taxi-index__hero-image-container{
+    background-size:cover;
+    height:256px;
+    background-position:0 0
+}
+@supports(height:33vh){
+    .m-taxi-index__hero-image-container{
+        background-size:cover;
+        height:30vh
+    }
+}
+.m-taxi-index__hero-image-overlay{
+    background:rgba(5,55,126,0.70);
+    height:100%;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-flow:column;
+    -ms-flex-flow:column;
+    flex-flow:column;
+    -webkit-box-pack:end;
+    -webkit-justify-content:flex-end;
+    -ms-flex-pack:end;
+    justify-content:flex-end
+}
+h1.m-taxi-index__heading{
+    margin:0;
+    font-size:24px;
+    line-height:32px;
+    font-weight:600;
+    color:#fff;
+    font-weight:600!important;
+    padding:0 8px
+}
+h2.m-taxi-index__subheading{
+    margin:0;
+    font-size:16px;
+    line-height:24px;
+    font-weight:500;
+    color:#fff;
+    font-weight:400!important;
+    padding:0 8px 8px 8px
+}
+@media only screen and (min-device-width :375px){
+    h1.m-taxi-index__heading{
+        padding:0 16px
+    }
+    h2.m-taxi-index__subheading{
+        padding:0 16px 8px 16px
+    }
+}
+.bui-avatar-block.bui-avatar-block--column-format{
+    -webkit-flex-flow:column;
+    -ms-flex-flow:column;
+    flex-flow:column;
+    padding-bottom:4px
+}
+.bui-avatar-block.bui-avatar-block--column-format .bui-avatar-block__title{
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+.bui-avatar-block.bui-avatar-block--column-format .bui-avatar-block__subtitle{
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+.landing-page__section-taxi-usp{
+    padding:0 16px
+}
+.landing-page__section-taxi-usp .bui-list__item{
+    border-bottom:0
+}
+.landing-page__section-taxi-usp .bui-list__icon svg{
+    padding:8px;
+    border-radius:100px
+}
+.landing-page__section-taxi-usp .bui-list__icon-blue-bg svg{
+    background:#cce1ff
+}
+.landing-page__section-taxi-usp .bui-list__icon-orange-bg svg{
+    background:#ffedd9
+}
+.landing-page__section-taxi-usp .bui-list__icon-green-bg svg{
+    background:#d1edd4
+}
+#bodyconstraint .landing-page__section-taxi-usp,#bodyconstraint .landing-page__section-taxi-usp .bui-grid__column-4{
+    margin-top:0;
+    padding-top:16px;
+    padding-bottom:16px
+}
+.landing-page__section-taxi-how-it-works{
+    max-width:100%;
+    margin:0 auto;
+    padding-bottom:60px;
+}
+.landing-page__section-taxi-how-it-works .bui-grid__column-9{
+    margin-bottom:32px
+}
+.landing-page__section-taxi-how-it-works .bui-card{
+    border:0;
+    text-align:center;
+    margin-bottom:24px
+}
+.landing-page__section-taxi-how-it-works h3{
+    margin-bottom:16px
+}
+.landing-page__section-taxi-how-it-works h4{
+    font-size:14px;
+    line-height:20px;
+    font-weight:500
+}
+.landing-page__section-taxi-how-it-works .bui-card__content{
+    padding:0
+}
+.landing-page__section-taxi-how-it-works .bui-card__image-container{
+    height:auto
+}
+.landing-page__section-taxi-how-it-works .bui-card__header{
+    margin:0
+}
+@media screen and (max-width: 360px) {
+  .landing-page__section-taxi-how-it-works .landing-page__section-taxi-how-it-works-img{
+    width:80%;
+    display:block
+}
+.taxi-how-it-works-illustration{
+    position:relative;
+    width:100%;
+    margin:20px auto 32px
+}
+.taxi-how-it-works-speech,.taxi-how-it-works-book,.taxi-how-it-works-confirmation,.taxi-how-it-works-driver,.taxi-how-it-works-arrive,.taxi-how-it-works-enjoy{
+    position:absolute;
+    width:100%;
+    text-align:center
+}
+.taxi-how-it-works-speech{
+    top:-8%;
+    left:-1%;
+    width:auto
+}
+.taxi-how-it-works-speech b{
+    font-weight:normal
+}
+.taxi-how-it-works-book{
+    top:33%;
+    left:-23%;
+    font-size:12px;
+}
+.taxi-how-it-works-confirmation{
+    top:33%;
+    left:9%;
+    font-size:12px;
+}
+.taxi-how-it-works-driver{
+    top:75%;
+    left:-23%;
+    font-size:12px;
+}
+.taxi-how-it-works-arrive{
+    top:75%;
+    left:46%;
+    width:100px;
+    font-size:12px;
+}
+.taxi-how-it-works-enjoy{
+    top:98%;
+    left:-38%;
+    font-size:12px;
+}
+  }
+@media screen and (max-width: 320px) {
+  .landing-page__section-taxi-how-it-works .landing-page__section-taxi-how-it-works-img{
+    width:75%;
+    display:flex
+}
+.taxi-how-it-works-illustration{
+    position:relative;
+    width:100%;
+    margin:20px auto 32px
+}
+.taxi-how-it-works-speech,.taxi-how-it-works-book,.taxi-how-it-works-confirmation,.taxi-how-it-works-driver,.taxi-how-it-works-arrive,.taxi-how-it-works-enjoy{
+    position:absolute;
+    width:100%;
+    text-align:center
+}
+.taxi-how-it-works-speech{
+    top:-8%;
+    left:8%;
+    width:auto
+}
+.taxi-how-it-works-speech b{
+    font-weight:normal
+}
+.taxi-how-it-works-book{
+    top:33%;
+    left:18%;
+    font-size:12px;
+}
+.taxi-how-it-works-confirmation{
+    top:33%;
+    left:20%;
+    font-size:12px;
+}
+.taxi-how-it-works-driver{
+    top:75%;
+    left:18%;
+    font-size:12px;
+}
+.taxi-how-it-works-arrive{
+    top:75%;
+    left:20%;
+    font-size:12px;
+}
+.taxi-how-it-works-enjoy{
+    top:98%;
+    left:10%;
+    font-size:12px;
+}
+  }
+
+.taxi-how-it-works-speech-bubble{
+    background:#ededed;
+    border-radius:4px;
+    max-width:400px;
+    padding:8px;
+    position:relative
+}
+.taxi-how-it-works-speech-bubble::after{
+    border-right:10px solid transparent;
+    border-top:10px solid #ededed;
+    bottom:-10px;
+    content:"";
+    position:absolute;
+    left:10px
+}
+.taxi-how-it-works-speech.reversed-image{
+    left:initial;
+    right:initial;
+    right:-5px
+}
+.taxi-how-it-works-speech-bubble.reversed-image::after{
+    left:initial;
+    right:initial;
+    left:10px;
+    border-right:0;
+    border-left:10px solid transparent
+}
+.taxi-how-it-works-book.reversed-image{
+    left:initial;
+    right:initial;
+    right:30px
+}
+.taxi-how-it-works-confirmation.reversed-image{
+    left:initial;
+    right:initial;
+    right:160px
+}
+.taxi-how-it-works-driver.reversed-image{
+    left:initial;
+    right:initial;
+    right:160px
+}
+.taxi-how-it-works-arrive.reversed-image{
+    left:initial;
+    right:initial;
+    right:30px
+}
+.taxi-how-it-works-enjoy.reversed-image{
+    left:initial;
+    right:initial;
+    right:-32px
+}
+.landing-page__section.landing-page__taxi-usp-map{
+    background-image:url("//r-cf.bstatic.com/static/img/taxi-world-map/caef0e024528d3fd2008f433e45ef87c406587f6.svg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-color:#003580;
+    background-size:cover;
+    min-height:570px;
+    margin-bottom:0
+}
+.landing-page__taxi-usp-map svg{
+    fill:#fff
+}
+.landing-page__taxi-usp-map h3,.landing-page__taxi-usp-map{
+    color:#fff
+}
+.landing-page__section-taxi-types .bui-list__item{
+    padding:4px 0;
+    border:0
+}
+.landing-page__section-taxi-types .bui-list__icon{
+    margin-right:8px
+}
+.landing-page__section-taxi-types .bui-card__image-container img{
+    width:90%;
+    margin:5% 5% 0
+}
+.www-taxi-types__info-snippet{
+    margin:2px 8px;
+    line-height:24px
+}
+.www-taxi-types__info-snippet-icon{
+    margin:0 2px
+}
+@supports(width:81vw){
+    .m-taxi-types__carousel-item{
+        width:81vw!important
+    }
+}
+.landing-page__section-faq .bui-accordion__title{
+    font-size:16px;
+    line-height:24px;
+    font-weight:500
+}
+.bui-accordion__title{
+    font-size:14px!important;
+    line-height:20px!important;
+    font-weight:500!important
+}
+.bui-card__title{
+    font-weight:600!important
+}
+.bui-card__subtitle{
+    font-weight:400!important
+}
+form.gb-c-search-form{
+    background:#001b42;
+    margin-top:0;
+    padding-top:2px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px
+}
+form.gb-c-search-form>div:first-child{
+    margin:16px 8px!important
+}
+@media only screen and (min-device-width :375px){
+    form.gb-c-search-form>div:first-child{
+        margin:24px 16px!important
+    }
+}
