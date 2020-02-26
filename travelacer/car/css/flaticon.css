@@ -18,7 +18,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+    src: url("https://cdn.statically.io/gh/adicore/file/8b68f182/travelacer/flaticon/font/Flaticon.svg") format("svg");
   }
 }
 
