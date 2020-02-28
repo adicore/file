@@ -1,0 +1,94 @@
+.gl_why_choose_us {
+	h2 {
+		margin-bottom: 40px;
+		@media screen and (min-width: $breakpoint_2) {
+			margin-bottom: 50px;
+		}
+	}
+	ul.gl_why_choose {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li {
+			position: relative;
+			flex-basis: 100%;
+			padding-left: 40px;
+			margin-bottom: 20px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+			@media screen and (min-width: $breakpoint_2) {
+				flex-basis: 48%;
+				margin-bottom: 30px;
+				padding-left: 40px;
+				&:nth-of-type(5), &:nth-of-type(6) {
+					margin-bottom: 0;
+				}
+			}
+			@media screen and (min-width: $breakpoint_3) {
+				flex-basis: 32%;
+				max-width: 32%;
+				padding-left: 70px;
+				margin-bottom: 0;
+				&:nth-of-type(1) {
+					margin-bottom: 70px;
+				}
+			}
+			a {
+				color: $font_main_color;
+				display: block;
+				&:hover {
+					h4 {
+						color: $main_color;
+					}
+				}
+			}
+			svg {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 28px;
+				height: 28px;
+				@media screen and (min-width: $breakpoint_3) {
+					width: 50px;
+					height: 50px;
+				}
+			}
+			h4 {
+				font-weight: 400;
+				margin: 0 0 10px;
+			}
+			p {
+				@media screen and (min-width: $breakpoint_2) {
+					max-width: 90%;
+				}
+				@media screen and (min-width: $breakpoint_3) {
+					max-width: initial;
+				}
+			}
+		}
+	}
+	ul.gl_why_choose_cdw {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li {
+			width: 100%;
+			margin-bottom: 30px;
+			display: flex;
+			align-items: center;
+			@media screen and (min-width: $breakpoint_2) {
+				width: 48%;
+				display: block;
+			}
+			@media screen and (min-width: $breakpoint_3) {
+				width: 21%;
+			}
+			svg {
+				margin-right: 10px;
+				width: 40px;
+				min-width: 40px;
+			}
+		}
+	}
+}
