@@ -1,0 +1,145 @@
+a {
+    color: $main_color;
+	text-decoration: none;
+}
+
+span.gl_link {
+	color: $main_color;
+	cursor: pointer;
+}
+
+.gl_gray_link {
+	color: $font_main_color;
+	text-decoration: underline;
+	&:hover {
+		color: $main_color;
+	}
+}
+
+a.gl_link, span.gl_link {
+	position: relative;
+	text-decoration: none;
+	line-height: 1.2;
+	display: inline-block;
+	cursor: pointer;
+	&.gl_link_white {
+		&::before {
+			background-color: $third_color;
+		}
+	}
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		left: 0;
+		bottom: 0;
+		transition: 0.3s;
+		background-color: $main_color;
+	}
+	&:hover {
+		&::before {
+			animation-name: gl_link;
+    		animation-duration: 0.5s;
+		}
+	}
+	@keyframes gl_link {
+		0%   {width: 0;}
+		100% {width: 100%;}
+	}
+	&.gl_italic_link {
+		font-style: italic;
+	}
+	&.visited, &:visited {
+		color: #b484de;
+		&::before {
+			background-color: #b484de;
+		}
+	}
+	&.active {
+		color: $main_color !important;
+		&::before {
+			background-color: $main_color !important;
+		}
+	}
+}
+
+a.gl_link.gl_upper, span.gl_link.gl_upper {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+
+.gl_btn {
+	display: inline-block;
+	background-color: $four_color;
+	color: $third_color;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	transition: .3s;
+	line-height: 40px;
+	padding: 0 20px;
+	text-align: center;
+	&:hover {
+		background-color: #ff973a;
+	}
+	@media screen and (min-width: $breakpoint_2) {
+		line-height: 55px;
+		padding: 0 30px;
+	}
+}
+
+.gl_btn.gl_btn_large {
+	line-height: 70px;
+}
+
+.gl_btn.gl_btn_medium {
+	line-height: 60px;
+}
+
+.gl_btn.gl_btn_small {
+	line-height: 40px;
+}
+
+.gl_btn.gl_btn_full {
+	width: 100%;
+}
+
+.gl_btn.gl_btn_gray {
+	background-color: #dbdfe4;
+	color: $main_color;
+	position: relative;
+    z-index: 2;
+	&:hover {
+		background-color: $third_color;
+	}
+}
+
+.gl_btn.gl_btn_trans {
+	background-color: transparent;
+	color: $secondary_color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:hover {
+		background-color: transparent;
+	}
+	svg {
+		width: 15px;
+		height: 15px;
+		margin-right: 10px;
+		fill: $secondary_color;
+	}
+}
+
+.gl_btn.gl_btn_empty {
+	color: $four_color;
+	background-color: transparent;
+	border: 1px solid $four_color;
+	&:hover {
+		background-color: $four_color;
+		color: $third_color;
+	}
+}
