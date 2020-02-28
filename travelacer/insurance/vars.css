@@ -1,0 +1,1315 @@
+$main_color: #428dff;
+$secondary_color: #23d291;
+$third_color: #ffffff;
+$four_color: #ffa85a;
+
+$font_main_color: #585858;
+
+$breakpoint_1: 480px;
+$breakpoint_2: 768px;
+$breakpoint_3: 1024px;
+$breakpoint_4: 1280px;
+$breakpoint_5: 1400px;
+$breakpoint_6: 1700px;
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+	color: $font_main_color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+	line-height: 1.8em;
+	position: relative;
+	&.fixed {
+		height: 100%;
+		overflow: hidden;
+		width: 100%;
+	}
+	&.fixed_pos {
+		position: fixed;
+	}
+	@media screen and (min-width: $breakpoint_2) {
+        font-size: 15px;
+	}
+	@media screen and (min-width: $breakpoint_4) {
+		font-size: 17px;
+	}
+}
+
+p {
+	font-weight: 300;
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+	border: none;
+}
+
+input, select {
+	line-height: 18px;
+	font-size: 1em;
+	color: $font_main_color;
+	border: none;
+	padding: 10px;
+	border: solid 1px #dbdfe4;
+	font-family: 'Roboto', sans-serif;
+}
+
+section {
+	margin-bottom: 50px;
+	@media screen and (min-width: $breakpoint_3) {
+		margin-bottom: 70px;
+	}
+}
+
+.errorbox {
+    padding: 0 36px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 13, 34, 0.8);
+	text-align: left;
+	p.error {
+		padding: 0px;
+		margin: 0;
+		color: #fff;
+		line-height: 52px;
+		font-size: 18px;
+	}
+}
+
+.gl_container {
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+    padding: 0 25px;
+    @media screen and (min-width: $breakpoint_1) {
+        
+    }
+    @media screen and (min-width: $breakpoint_2) {
+        max-width: 960px;
+		margin: 0 auto;
+		padding: 0 50px;
+    }
+    @media screen and (min-width: $breakpoint_3) {
+		max-width: 1024px;
+		padding: 0 15px;
+    }
+    @media screen and (min-width: $breakpoint_4) {
+		max-width: 1280px;
+	}
+	@media screen and (min-width: $breakpoint_5) {
+		padding: 0;
+    }
+    &:after {
+        content: '';
+        display: block;
+        width: 0;
+        height:0;
+        clear: both;
+	}
+	.gl_container {
+		padding: 0;
+	}
+}
+
+.gl_main_back {
+	background-color: $main_color;
+	color: $third_color;
+}
+
+.gl_secondary_back {
+	background-color: $secondary_color;
+	color: $third_color;
+}
+
+.transparent_background, .search_background {
+    visibility: hidden;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    transition: 0.3s;
+    opacity: 0;
+	top: 0;
+	left: 0;
+	&.open {
+		visibility: visible;
+		opacity: 0.6;
+	}
+}
+
+.gl_hide_on_mobile {
+	display: none;
+	@media screen and (min-width: $breakpoint_2) {
+		display: block;
+	}
+}
+
+.gl_hide_on_tablet {
+	display: none;
+	@media screen and (min-width: $breakpoint_4) {
+		display: block;
+	}
+}
+
+.gl_to_top {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    cursor: pointer;
+	z-index: 2;
+	@media screen and (min-width: $breakpoint_3) {
+        width: 65px;
+        height: 65px;
+        bottom: 15px;
+        right: 15px;
+    }
+	&:hover {
+		background-color: #959595;
+		svg {
+			fill: #d5d5d5;
+		}
+	}
+	svg {
+		width: 25px;
+		height: 25px;
+		fill: #959595;
+		@media screen and (min-width: $breakpoint_3) {
+			width: 30px;
+        	height: 30px;
+		}
+	}
+	&.open {
+		visibility: visible;
+		opacity: 0.7;
+	}
+}
+
+.border_red {
+    border: 1px solid #ff0000 !important;
+}
+
+.color_red {
+    color: #ff0000;
+}
+
+.admin-block {
+    text-align: center;
+    background: lightgreen;
+	margin: 0 auto;
+	z-index: 100;
+	position: relative;
+	line-height: 2em;
+	&.yellow {
+		background: #ffeb00;
+	}
+}
+
+.admin-block a {
+    margin: 0 10px;
+}
+
+.gl_gap_40 {
+	height: 40px;
+}
+
+.gl_custom_check {
+	display: inline-block;
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	border: 1px solid #cecece;
+	&.active {
+		background: url(../img/tick_gray.svg) no-repeat center;
+		background-size: 20px;
+	}
+}
+.gl_custom_check_holder {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	position: relative;
+	.gl_custom_check {
+		margin-right: 10px;
+	}
+	.errorbox {
+		font-style: italic;
+		bottom: 90%;
+		padding: 5px;
+		line-height: 19px;
+		background-color: #ffd9d9;
+		color: red;
+		font-weight: 100;
+		position: absolute;
+		font-size: 11px;
+		width: initial;
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 5px;
+			height: 5px;
+			transform: rotate(45deg);
+			background-color: #ffd9d9;
+			bottom: -2px;
+			left: 14px;
+		}
+	}
+}
+
+.gl_content {
+	table {
+		td {
+			color: $font_main_color;
+			padding: 30px 30px;
+			font-weight: 300;
+			border: 10px solid $third_color;
+			vertical-align: top;
+			&:last-of-type {
+				border-right: none;
+			}
+			&:first-of-type {
+				border-left: none;
+			}
+		}
+		tbody {
+			tr {
+				td {
+					background-color: rgba(236, 240, 245, 0.5);
+				}
+			}
+			tr:first-of-type {
+				td {
+					color: $third_color;
+					text-align: center;
+					background-color: $secondary_color;
+					strong {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+}
+.gl_basic_content {
+	padding: 50px 0 0;
+	margin-bottom: 50px;
+	h2 {
+		@media screen and (min-width: $breakpoint_2) {
+			text-align: left;
+		}
+	}
+	.gl_heading_type1 {
+		margin-bottom: 40px;
+	}
+	.gl_basic_gray_block {
+		background-color: #ecf0f5;
+		padding: 10px 20px;
+		border-radius: 8px;
+		@media screen and (min-width: $breakpoint_2) {
+			padding: 60px 80px;
+		}
+		h5 {
+			line-height: 1.8em;
+			font-weight: 400;
+			font-size: 1em;
+			@media screen and (min-width: $breakpoint_2) {
+				font-size: 1.2em;
+			}
+		}
+		b {
+			font-weight: 400;
+		}
+	}
+	table {
+		td {
+			color: $font_main_color;
+			padding: 30px 30px;
+			font-weight: 300;
+			border: 10px solid $third_color;
+			&:last-of-type {
+				border-right: none;
+			}
+			&:first-of-type {
+				border-left: none;
+			}
+		}
+		tbody {
+			tr {
+				td {
+					background-color: rgba(236, 240, 245, 0.5);
+				}
+			}
+			tr:first-of-type {
+				td {
+					color: $third_color;
+					text-align: center;
+					background-color: $secondary_color;
+					strong {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+	p {
+		.gl_btn {
+			font-weight: 400;
+		}
+	}
+}
+
+.gl_blockquote, .article-block-blue {
+	position: relative;
+    background-color: #eef4f7;
+    padding: 25px 35px;
+    font-style: italic;
+	margin-left: 60px;
+	@media screen and (min-width: $breakpoint_2) {
+		margin-left: 120px;
+	}
+	&::before {
+		content: '';
+		display: block;
+		width: 50px;
+		height: 68px;
+		background-image: url(../img/big_logo.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		left: -60px;
+		background-size: contain;
+		@media screen and (min-width: $breakpoint_2) {
+			left: -120px;
+			width: 77px;
+			height: 111px;
+		}
+	}
+	&::after {
+        right: 100%;
+        top: 25px;
+        border: solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border-color: rgba(238, 244, 247, 0);
+        border-right-color: #eef4f7;
+		border-width: 10px 10px;
+		@media screen and (min-width: $breakpoint_2) {
+			border-width: 10px 25px;
+		}
+    }
+}
+
+.gl_row {
+	display: flex;
+	flex-direction: column;
+	@media screen and (min-width: $breakpoint_2) {
+		flex-direction: row;
+	}
+	.gl_half_block {
+		width: 100%;
+		@media screen and (max-width: $breakpoint_2) {
+			&:first-of-type {
+				margin-bottom: 40px;
+			}
+		}
+		@media screen and (min-width: $breakpoint_2) {
+			width: 50%;
+			&.gl_first_half_block {
+				padding-right: 70px;
+			}
+		}
+	}
+	.gl_col_60 {
+		@media screen and (min-width: $breakpoint_2) {
+			width: 60%;
+		}
+	}
+	.gl_col_40 {
+		@media screen and (min-width: $breakpoint_2) {
+			width: 40%;
+		}
+	}
+}
+
+ul.gl_green_arrow_list, .gl_article_content ul {
+	li {
+		font-weight: 300;
+		padding-left: 20px;
+		background-image: url('../img/gl_tick_green.svg');
+		background-repeat: no-repeat;
+		background-size: 10px;
+		background-position: 0 6px;
+		@media screen and (min-width: $breakpoint_2) {
+			padding-left: 40px;
+			background-size: 20px;
+		}
+		span {
+			color: $secondary_color;
+			font-weight: 400;
+		}
+	}
+}
+
+ul.gl_green_dot_list {
+	li {
+		font-weight: 300;
+		padding-left: 20px;
+		margin-bottom: 10px;
+		position: relative;
+		&::before {
+			content: '';
+			position: absolute;
+			width: 5px;
+			height: 5px;
+			background-color: $secondary_color;
+			border-radius: 50%;
+			left: 0;
+			top: 8px;
+		}
+		@media screen and (min-width: $breakpoint_2) {
+			padding-left: 40px;
+			margin-bottom: 30px;
+			&::before {
+				width: 8px;
+				height: 8px;
+				top: 12px;
+			}
+		}
+	}
+}
+
+ol li {
+	list-style: decimal;
+	margin-left: 40px;
+	font-weight: 300;
+}
+
+.gl_info_block {
+	background-color: $main_color;
+	border-radius: 8px;
+	padding: 20px 40px 20px 65px;
+	color: $third_color;
+	position: relative;
+	svg {
+		position: absolute;
+		fill: $third_color;
+		width: 30px;
+		height: 30px;
+		left: 20px;
+	}
+}
+
+.ui-autocomplete li {
+	padding-left: 30px;
+}
+
+#loader {
+	position: fixed;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.gl_admin_button {
+	display: flex;
+	justify-content: flex-end;
+	a.CMSForm {
+		background-color: #ecf0f5;
+		color: $main_color;
+		padding: 5px 15px;
+		transition: 0.3s;
+		position: relative;
+		z-index: 100;
+		&:hover {
+			color: #ecf0f5;
+			background-color: $main_color
+		}
+	}
+}
+
+.gl_table_wrap {
+	display: block !important;
+	max-width: 100%;
+	overflow-x: auto;
+	&.gl_three_columns_table {
+		@media screen and (max-width: $breakpoint_2) {
+			table, tbody { 
+				display: block; 
+			}
+			thead, th, td, tr { 
+				display: flex; 
+			}
+			tr:first-of-type { 
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+			table {
+				tr {
+					flex-direction: column;
+				}
+				td {
+					border: 1px solid $third_color !important;
+					padding: 10px;
+					&:before {
+						min-width: 45%;
+						width: 45%;
+						margin-right: 5%;
+					}
+					&:first-of-type {
+						font-weight: bold;
+						p {
+							font-weight: bold;
+						}
+					}
+				}
+				&.gl_event_cancellation_table, &.gl_wedding_table {
+					td {
+						&:nth-of-type(1):before { content: "Section Cover"; }
+						&:nth-of-type(2):before { content: "Maximum Sums Insured per Person"; }
+						&:nth-of-type(3):before { content: "Excess per Claim"; }
+					}
+				}
+			}
+		}
+	}
+	&.gl_three_columns_table_with_heading {
+		@media screen and (max-width: $breakpoint_2) {
+			table, tbody { 
+				display: block; 
+			}
+			thead, th, td, tr { 
+				display: flex; 
+			}
+			tr:first-of-type { 
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+			table {
+				tr {
+					flex-direction: column;
+				}
+				td {
+					border: 1px solid $third_color !important;
+					padding: 10px;
+					&:first-of-type {
+						justify-content: center;
+						flex-direction: column;
+						white-space: normal !important;
+					}
+					&:before {
+						min-width: 45%;
+						width: 45%;
+						margin-right: 5%;
+					}
+					&.bbig {
+						font-size: 1.2em;
+					}
+				}
+				&.gl_j1_table {
+					tr:nth-of-type(1) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+							font-weight: bold;
+						}
+						&:nth-of-type(2):before { content: "Globelink J1 Basic"; }
+						&:nth-of-type(3):before { content: "Globelink J1+ Regular"; }
+					}
+				}
+				&.gl_golf_table {
+					tr:nth-of-type(2) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Sum Insured / Level of Benefit"; }
+						&:nth-of-type(3):before { content: "Excess Each & Every Claim (unless otherwise stated)"; }
+					}
+				}
+				&.gl_santander_table {
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Santander Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_axa_table {
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "AXA Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_post_office_table {
+					tr:nth-of-type(3) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Post Office Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_marks_and_spencer_table {
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Marks and Spencer Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_explorer_table {
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Explorer Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_saga_table {
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+						}
+						&:nth-of-type(2):before { content: "Saga Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globelink Travel Insurance"; }
+					}
+				}
+				&.gl_compare_all_table {
+					tr:nth-of-type(1) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+							font-weight: bold;
+						}
+						&:nth-of-type(2):before { content: "Regular Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Annual Multi-Trip Policy"; }
+						&:nth-of-type(4):before { content: "Comprehensive Travel Insurance"; }
+						&:nth-of-type(5):before { content: "Backpacker Travel Insurance"; }
+					}
+				}
+				&.gl_compare_travel_table {
+					tr:nth-of-type(1) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(1) {
+							justify-content: center;
+							flex-direction: column;
+							white-space: normal !important;
+							text-align: center;
+							font-weight: bold;
+						}
+						&:nth-of-type(2):before { content: "EXCESS for Cancellation or Curtailment"; }
+						&:nth-of-type(3):before { content: "EXCESS for Emergency Medical Repatriation & Other Expenses"; }
+						&:nth-of-type(4):before { content: "EXCESS for Dental Treatment Limit"; }
+						&:nth-of-type(5):before { content: "EXCESS for Hospital Confinement Benefit"; }
+					}
+				}
+			}
+		}
+	}
+}
+
+#gl_tab_2 {
+	.gl_table_wrap {
+		display: block !important;
+		max-width: 100%;
+		overflow-x: auto;
+		@media screen and (max-width: $breakpoint_2) {
+			table, tbody { 
+				display: block; 
+			}
+			thead, th, td, tr { 
+				display: flex; 
+			}
+			tr:first-of-type { 
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+			table {
+				&.gl_four_items_table {
+					tr:nth-of-type(2) { 
+						position: absolute;
+						top: -9999px;
+						left: -9999px;
+					}
+					td {
+						&:nth-of-type(2):before { content: "Person Per Section Cover"; }
+						&:nth-of-type(3):before { content: "Maximum Sums Insured Per Person (J1)"; }
+						&:nth-of-type(4):before { content: "Maximum Sums Insured Per Person (J1+)"; }
+						&:nth-of-type(5):before { content: "Excess Per Claim"; }
+					}
+				}
+				&.gl_gap_year_cover {
+					td {
+						&:nth-of-type(2):before { content: "Globetrekkers Standard Travel Insurance"; }
+						&:nth-of-type(3):before { content: "Globetrekkers Standard Plus"; }
+					}
+				}
+				tr {
+					flex-direction: column;
+				}
+				td {
+					border: 1px solid $third_color !important;
+					padding: 10px;
+					&:first-of-type {
+						justify-content: center;
+						flex-direction: column;
+						white-space: normal !important;
+					}
+					&:before {
+						min-width: 45%;
+						width: 45%;
+						margin-right: 5%;
+					}
+					&:nth-of-type(2):before { content: "Person Per Section Cover"; }
+					&:nth-of-type(3):before { content: "Maximum Sums Insured Per Person"; }
+					&:nth-of-type(4):before { content: "Excess Per Claim"; }
+					.gl_info_box {
+						display: none;
+						.gl_info_box_popup {
+							left: initial;
+							right: -5px;
+							max-width: 255px;
+							&::before {
+								left: initial;
+								right: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.as-paginator {
+    text-align: center;
+	word-spacing: -1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 20px;
+}
+
+.as-paginator-num a, .as-paginator-start a, .as-paginator-end a, .as-paginator-text a {
+    color: $main_color;
+    text-decoration: none;
+}
+
+.as-paginator .as-paginator-num {
+    display: -moz-inline-box;
+    display: inline-block;
+    word-spacing: normal;
+    vertical-align: top;
+    line-height: 42px;
+	margin: 5px 5px;
+}
+
+.as-paginator .as-paginator-text {
+    display: -moz-inline-box;
+    display: none;
+    word-spacing: normal;
+    vertical-align: top;
+    line-height: 42px;
+    margin: 0 4px;
+}
+
+.as-paginator-start, .as-paginator-end {
+    display: -moz-inline-box;
+    display: none;
+    word-spacing: normal;
+    vertical-align: top;
+    width: 39px;
+    font: 14px Tahoma, Geneva, sans-serif;
+    line-height: 44px;
+}
+
+#ui-datepicker-div {
+	z-index: 999 !important;
+}
+
+.errorbox_ages, .errorbox_country {
+	background-color: #ff4c4c;
+    width: 100%;
+    top: 0;
+    color: $third_color;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+	position: relative;
+	@media screen and (min-width: $breakpoint_2) {
+		padding: 20px 40px;
+	}
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background-color: #ff4c4c;
+		transform: rotate(45deg);
+		bottom: -5px;
+	}
+}
+
+#wizard-index-tablet-error.errorbox {
+    padding: 0 36px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 13, 34, 0.8);
+    text-align: left;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+#wizard-index-tablet-error.errorbox p.error {
+    padding: 0px;
+    margin: 0;
+    color: $third_color;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.gl_wiz4_important {
+    background-color: rgb(255, 234, 214);
+    margin: -10px -40px 0;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.gl_wiz4_important::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 234, 214);
+    transform: rotate(45deg);
+    top: -5px;
+    right: 100px;
+}
+.gl_wiz4_important h5 {
+    text-transform: uppercase;
+}
+.gl_wiz4_important .gl_wiz4_important_check {
+    display: flex;
+    align-items: center;
+}
+.gl_wiz4_important .gl_wiz4_important_check span {
+    min-width: 35px;
+    height: 35px;
+    border: 1px solid $font_main_color;
+    margin-right: 20px;
+}
+.gl_wiz4_important .gl_wiz4_important_check span.gl_active {
+    background-image: url('../img/tick_dark.svg');
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gl_wiz4_important .gl_wiz4_important_check p {
+    font-size: 0.8em;
+    line-height: 180%;
+    margin-bottom: 0;
+}
+
+#mail_template_content_ifr {
+	min-height: 600px;
+}
+
+.clearlooks2{
+	top:150px !important;
+}
+#request_message_parent{
+	display:none;
+}
+.as-left-wrap, .as-white-box-pad-full{
+	width:100%;
+}
+.editor_copy_area_content:hover{
+text-decoration:underline;
+}
+
+.min-spacer {
+	margin-bottom: 10px;
+	@media screen and (min-width: $breakpoint_3) {
+		margin-bottom: 20px;
+	}
+}
+.mid-spacer {
+	margin-bottom: 20px;
+	@media screen and (min-width: $breakpoint_3) {
+		margin-bottom: 35px;
+	}
+	
+}
+.max-spacer {
+	margin-bottom: 25px;
+	@media screen and (min-width: $breakpoint_3) {
+		margin-bottom: 50px;
+	}
+}
+
+.time-field input {
+	min-width: 120px;
+}
+
+.gl_admin_form_submit {
+	margin-top: 25px;
+}
+
+.new_add_guide {
+    background-image: url('../../images/get_guide_bg.jpg');
+    padding: 30px;
+    background-size: cover;
+}
+
+.new_add_guide .new_add_guide_name {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 35px;
+    float: right;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 10px;
+}
+
+.new_add_guide p {
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    float: right;
+}
+
+.new_add_guide input[type="email"] {
+    float: left;
+    height: 54px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.new_add_guide #new_add_guide_submit {
+    width: 100%;
+    line-height: 54px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #fe8400;
+    height: 54px;
+    border: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.new_add_guide a {
+    float: right;
+    color: #fff;
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#new_add_guide_message {
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+}
+
+.gl_back_to_travel  {
+	position: fixed;
+	bottom: 30px;
+	left: 0;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top: 1px solid #ffa85a;
+	border-right: 1px solid #ffa85a;
+	border-bottom: 1px solid #ffa85a;
+	overflow: hidden;
+	background-color: $third_color;
+	z-index: 5;
+	transform: translateX(-211px);
+	transition: 0.3s;
+	box-shadow: 0 11px 21px 0 rgba(0, 0, 0, 0.09);
+	background-color: #ffa85a;
+	&.first_step {
+		animation-duration: 5s;
+		animation-delay: 2s;
+		animation-name: slidein;
+		.gl_back_button {
+			svg {
+				animation-duration: 5s;
+				animation-delay: 2s;
+				animation-name: slideinsvg;
+			}
+		}
+	}
+	@media screen and (min-width: $breakpoint_2) {
+		transform: translateX(-260px);
+	}
+	@media screen and (min-width: $breakpoint_3) {
+		bottom: initial;
+		left: initial;
+		right: 0;
+		top: 200px;
+		transform: translateX(265px);
+		border-right: none;
+		border-left: 1px solid #ffa85a;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-top-left-radius: 6px;
+		border-bottom-left-radius: 6px;
+	}
+	@media screen and (min-width: $breakpoint_4) {
+		transform: translateX(300px);
+	}
+	&:hover {
+		transform: translateX(0);
+		background-color: $third_color;
+		.gl_back_button {
+			&::before {
+				opacity: 0;
+				z-index: -1;
+			}
+			svg {
+				fill: #ffa85a;
+			}
+		}
+	}
+	.gl_back_button {
+		display: flex;
+		align-items: center;
+		padding: 10px;
+		flex-direction: row-reverse;
+		position: relative;
+		@media screen and (min-width: $breakpoint_3) {
+			flex-direction: row;
+			padding: 15px;
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			opacity: 1;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			transition: 0.3s;
+			z-index: 999;
+		}
+		a {
+			font-size: 1.4em;
+			color: #ffa85a;
+		}
+		svg {
+			width: 40px;
+			height: 40px;
+			fill: #fff;
+			margin: 0 0 0 10px;
+			@media screen and (min-width: $breakpoint_3) {
+				width: 30px;
+				height: 30px;
+				margin: 0 15px 0 0;
+			}
+		}
+	}
+	@keyframes slidein {
+		0% {
+			transform: translateX(-211px);
+			background-color: #ffa85a;
+		}
+
+		10% {
+			transform: translateX(0);
+			background-color: $third_color;
+		}
+
+		90% {
+			transform: translateX(0);
+			background-color: $third_color;
+		}
+
+		100% {
+			transform: translateX(-211px);
+			background-color: #ffa85a;
+		}
+	}
+
+	@keyframes slideinsvg {
+		0% {
+			fill: #fff;
+		}
+
+		10% {
+			fill: #ffa85a;
+		}
+
+		90% {
+			fill: #ffa85a;
+		}
+
+		100% {
+			fill: #fff;
+		}
+	}
+	@media screen and (min-width: $breakpoint_2) {
+		@keyframes slidein {
+			0% {
+				transform: translateX(-260px);
+				background-color: #ffa85a;
+			}
+
+			10% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			90% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			100% {
+				transform: translateX(-260px);
+				background-color: #ffa85a;
+			}
+		}
+	}
+	@media screen and (min-width: $breakpoint_3) {
+		@keyframes slidein {
+			0% {
+				transform: translateX(265px);
+				background-color: #ffa85a;
+			}
+
+			10% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			90% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			100% {
+				transform: translateX(265px);
+				background-color: #ffa85a;
+			}
+		}
+	}
+	@media screen and (min-width: $breakpoint_4) {
+		@keyframes slidein {
+			0% {
+				transform: translateX(300px);
+				background-color: #ffa85a;
+			}
+
+			10% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			90% {
+				transform: translateX(0);
+				background-color: $third_color;
+			}
+
+			100% {
+				transform: translateX(300px);
+				background-color: #ffa85a;
+			}
+		}
+	}
+}
