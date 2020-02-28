@@ -878,7 +878,11 @@ hr.style-one {
 .site-footer__subscribe-form button[type=submit]:hover {
   background-color: #9364D4;
 }
-
+.site-footer__subscribe .info {
+    position: absolute;
+    bottom: -30px; }
+.site-footer__subscribe.info.error {
+      color: #000000; }
 /*
 * 6. blog styles
 */
