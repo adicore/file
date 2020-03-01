@@ -6,8 +6,8 @@ Generated using nucleoapp.com
 -------------------------------- */
 @font-face {
   font-family: 'LineIcons';
-  src: url('../fonts/LineIcons.eot');
-  src: url('../fonts/LineIcons.eot') format('embedded-opentype'), url('../fonts/LineIcons.woff2') format('woff2'), url('../fonts/LineIcons.woff') format('woff'), url('../fonts/LineIcons.ttf') format('truetype'), url('../fonts/LineIcons.svg') format('svg');
+  src: url('https://cdn.statically.io/gh/adicore/file/74d531b3/eryKurniawan/fonts/LineIcons.eot');
+  src: url('https://cdn.statically.io/gh/adicore/file/74d531b3/eryKurniawan/fonts/LineIcons.eot') format('embedded-opentype'), url('https://cdn.statically.io/gh/adicore/file/7028a5ee/eryKurniawan/fonts/LineIcons.woff2') format('woff2'), url('https://cdn.statically.io/gh/adicore/file/7028a5ee/eryKurniawan/fonts/LineIcons.woff') format('woff'), url('https://github.com/adicore/file/blob/master/eryKurniawan/fonts/LineIcons.ttf') format('truetype'), url('https://cdn.statically.io/gh/adicore/file/7028a5ee/eryKurniawan/fonts/LineIcons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
