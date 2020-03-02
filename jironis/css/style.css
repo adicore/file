@@ -1356,7 +1356,7 @@ label input[type=radio] {
 }
 
 section.app-video {
-    background-image: url(https://cdn.statically.io/gh/adicore/file/d5b28b52/jironis/video-bg.jpg);
+    background-image: url(https://res.cloudinary.com/webzite/image/upload/c_scale,h_700,w_1200/v1583135521/video-bg.webp);
     background-size: cover;
     background-position: 0% 78%;
     background-repeat: no-repeat;
