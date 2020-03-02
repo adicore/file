@@ -984,7 +984,7 @@ label input[type=radio] {
     margin-bottom: 20px;
 }
 .banner-inner-area.banner-area1:before{
-    background: url(../img/banner/main-base.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/469d558c/jironis/main-base.png);
     background-position: top right;
     background-repeat: no-repeat;
     height: 100%;
@@ -995,7 +995,7 @@ label input[type=radio] {
     content: "";
 }
 /* .banner-inner-area.banner-area1:before{
-    background: url(../img/banner/base.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/469d558c/jironis/base.png);
     background-position: top right;
     background-repeat: no-repeat;
     height: 100%;
@@ -1006,7 +1006,7 @@ label input[type=radio] {
     content: "";
 } 
  .banner-inner-area.banner-area1:after {
-    background: url(../img/banner/base2.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/469d558c/jironis/base2.png);
     background-position: top right;
     background-repeat: no-repeat;
     height: 100%;
@@ -1124,7 +1124,7 @@ label input[type=radio] {
 
 /* home2 */
 .banner-inner-area.banner-area1.banner2:before {
-    background: url(../img/banner/base3.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/469d558c/jironis/base3.png);
     background-position: top right;
     background-repeat: no-repeat;
     height: 100%;
@@ -1356,7 +1356,7 @@ label input[type=radio] {
 }
 
 section.app-video {
-    background-image: url(../img/video-bg.jpg);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/d5b28b52/jironis/video-bg.jpg);
     background-size: cover;
     background-position: 0% 78%;
     background-repeat: no-repeat;
@@ -1441,7 +1441,7 @@ section.app-video:before {
     height: 770px;
     margin: 0 auto;
     padding: 108px 70px;
-    background: url(../img/feature/mockup.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/a7403563/jironis/mockup.png);
     margin-top: 12px;
 }
 .app-carousel .owl-stage-outer {
