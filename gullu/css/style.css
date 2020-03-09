@@ -58,30 +58,29 @@
 /**
 * Importing necessary  Styles.
 **/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900|Poppins:300,400,500,600');
 /*----bootstrap css ----- */
-@import url('../vendor/bootstrap/bootstrap.css');
+@import url('https://cdn.statically.io/gh/adicore/file/a6adb289/gullu/js/bootstrap/bootstrap.min.css');
 /*----bootstrap Select ----- */
-@import url('../vendor/bootstrap-select/dist/css/bootstrap-select.css');
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-select.min.css');
 /*----camera-slider---*/
-@import url('../vendor/Camera-master/css/camera.css');
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/Camera-master/css/camera.css');
 /*------- Mega menu ------*/
-@import url('../vendor/bootstrap-mega-menu/css/menu.css');
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-mega-menu/css/menu.css');
 /*----font awesome -------*/
-@import url('../fonts/font-awesome/css/font-awesome.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/fonts/font-awesome/css/font-awesome.min.css');
 /*----owl-carousel css----*/
-@import url('../vendor/owl-carousel/owl.carousel.css');
-@import url('../vendor/owl-carousel/owl.theme.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/owl-carousel/owl.carousel.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/owl-carousel/owl.theme.css');
 /*-------- animated css ------*/
-@import url('../vendor/WOW-master/css/libs/animate.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/WOW-master/css/libs/animate.css');
 /*-------Hover Css --------*/
-@import url('../vendor/hover.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/hover.css');
 /*--------- flat-icon ---------*/
-@import url('../fonts/icon/font/flaticon.css');
+@import url('https://cdn.statically.io/gh/adicore/file/89915935/gullu/fonts/icon/font/flaticon.css');
 /*----------- Fancybox css -------*/
-@import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/fancybox/dist/jquery.fancybox.min.css');
 /*--------- Jquery ui ---------*/
-@import url('../vendor/jquery-ui/jquery-ui.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/jquery-ui/jquery-ui.min.css');
 
 
 /*** 
@@ -200,11 +199,11 @@
 
  @font-face {
   font-family: 'font-awesome';
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+  src: url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/fonts/font-awesome/fonts/fontawesome-webfont.ttf');
+  src: url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
+       url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
 
  body {
@@ -592,7 +591,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
           clip-path: url(#shape-one);
 }
 .theme-shape-two {
-  background: url(../svg/1.svg);
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/svg/1.svg);
   height: 100%;
 }
 #theme-main-banner {margin-bottom: 90px;}
@@ -632,7 +631,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   bottom: 0;
 }
 #theme-main-banner.banner-one .camera_overlayer {
-  background: url(../images/home/shape-1.png) no-repeat center center;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/shape-1.png) no-repeat center center;
 }
 #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul {
   position: absolute;
@@ -970,7 +969,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   position: absolute;
   left:0;
   top:0;
-  background: url(../images/home/10.jpg) no-repeat center;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/10.jpg) no-repeat center;
 }
 .more-about-us {
   padding: 0 0 30px 0;
@@ -1041,7 +1040,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
           clip-path: url(#shape-one);
 }
 .more-about-us .theme-shape-three {
-  background: url(../svg/2.svg);
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/svg/2.svg);
   width: 865px;
   height: 525px;
   position: absolute;
@@ -1216,7 +1215,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .home-service-section ul li div i.flaticon-bar-chart {color: #2ed876;}
 .home-service-section ul li div i.flaticon-smartphone {color: #ffba34;}
 /*------------------- Two Section Wrapper -----------------*/
-.two-section-wrapper {background: url(../images/home/shape-3.png) no-repeat center;}
+.two-section-wrapper {background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/shape-3.png) no-repeat center;}
 /*--------------------- Testimonial ---------------------*/
 .testimonial-section {
   padding: 130px 0 150px 0;
@@ -1225,7 +1224,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   margin-bottom: 140px;
 }
 .testimonial-section.bg-image {
-  background: url(../images/home/11.jpg) no-repeat center;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/11.jpg) no-repeat center;
   background-size: cover;
   padding: 130px 0 150px 0;
 }
@@ -1292,7 +1291,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
           clip-path: url(#shape-one);
 }
 .testimonial-section .theme-shape-four {
-  background: url(../svg/2.svg);
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/svg/2.svg);
   width: 865px;
   height: 525px;
   position: absolute;
@@ -1442,9 +1441,9 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 }
 .home-blog-section .single-blog {margin-bottom: 85px;}
 /*----------------------- Footer ---------------------*/
-footer.bg-one {background: url(../images/home/footer.png) no-repeat center center;background-size: cover;}
+footer.bg-one {background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/footer.png) no-repeat center center;background-size: cover;}
 footer.bg-two {
-  background: url(../images/home/footer2.jpg) no-repeat center center;background-size: cover;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/footer2.jpg) no-repeat center center;background-size: cover;
   padding-top: 150px;
 }
 
@@ -1562,7 +1561,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 .company-seo-text img {border-radius: 50%;}
 /*----------------------------- Short Banner ----------------------*/
 .short-banner {
-  background: url(../images/home/13.jpg) no-repeat center;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/13.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   margin: 150px 0 0 0;
@@ -1745,7 +1744,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 /*----------------------- End Hone Three Version -------------------*/
 /*------------------ Theme Inner Banner -----------------*/
 .inner-page-banner {
-  background: url(../images/inner-page/banner.jpg) no-repeat center;
+  background: url(https://cdn.statically.io/gh/adicore/file/08b3942c/gullu/img/banner.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
