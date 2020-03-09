@@ -52,6 +52,17 @@
 /*   27 - Shop Page  */
 /*   28 - Shop Details  */
 
+@import url('https://cdn.statically.io/gh/adicore/file/a6adb289/gullu/js/bootstrap/bootstrap.min.css' rel='stylesheet'/>
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-select.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/Camera-master/css/camera.css');
+@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-mega-menu/css/menu.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/fonts/font-awesome/css/font-awesome.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/WOW-master/css/libs/animate.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/hover.css');
+@import url('https://cdn.statically.io/gh/adicore/file/89915935/gullu/fonts/icon/font/flaticon.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/fancybox/dist/jquery.fancybox.min.css');
+@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/jquery-ui/jquery-ui.min.css');
+
 /*** 
 
 ====================================================================
