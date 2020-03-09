@@ -52,37 +52,6 @@
 /*   27 - Shop Page  */
 /*   28 - Shop Details  */
 
-
-
-
-/**
-* Importing necessary  Styles.
-**/
-/*----bootstrap css ----- */
-@import url('https://cdn.statically.io/gh/adicore/file/a6adb289/gullu/js/bootstrap/bootstrap.min.css');
-/*----bootstrap Select ----- */
-@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-select.min.css');
-/*----camera-slider---*/
-@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/Camera-master/css/camera.css');
-/*------- Mega menu ------*/
-@import url('https://cdn.statically.io/gh/adicore/file/877803db/gullu/js/bootstrap-mega-menu/css/menu.css');
-/*----font awesome -------*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/fonts/font-awesome/css/font-awesome.min.css');
-/*----owl-carousel css----*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/owl-carousel/owl.carousel.css');
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/owl-carousel/owl.theme.css');
-/*-------- animated css ------*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/WOW-master/css/libs/animate.css');
-/*-------Hover Css --------*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/hover.css');
-/*--------- flat-icon ---------*/
-@import url('https://cdn.statically.io/gh/adicore/file/89915935/gullu/fonts/icon/font/flaticon.css');
-/*----------- Fancybox css -------*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/fancybox/dist/jquery.fancybox.min.css');
-/*--------- Jquery ui ---------*/
-@import url('https://cdn.statically.io/gh/adicore/file/1bc7dc6a/gullu/js/jquery-ui/jquery-ui.min.css');
-
-
 /*** 
 
 ====================================================================
