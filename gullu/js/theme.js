@@ -147,7 +147,7 @@ function testimonialSlider () {
       logoslider.owlCarousel({
         loop:true,
         nav:true,
-        navText: ["",""],
+        navText: ["ï…·","ï…¸"],
         dots:false,
         autoplay:true,
         autoplayTimeout:4000,
