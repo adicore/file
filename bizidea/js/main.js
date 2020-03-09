@@ -372,7 +372,7 @@ We may release future updates so it will overwrite this file. it's better and sa
                     map: map,
                     animation: google.maps.Animation.DROP,
                     draggable: false,
-                    icon: 'assets/img/map-marker.png'
+                    icon: 'https://cdn.statically.io/gh/adicore/file/83331200/bizidea/img/map-marker.png'
                 });
 
             });
