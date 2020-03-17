@@ -88,8 +88,6 @@
 		
         $('.countdown').downCount({
             date: '07/27/2019 12:00:00'
-        }, function () {
-            alert('WOOT WOOT, done!');
         });
 
 		
