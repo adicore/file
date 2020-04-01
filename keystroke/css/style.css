@@ -4808,11 +4808,11 @@ font-family: 'DM Sans', sans-serif;
     Background Image 
 =============================*/
 .bg_image--1 {
-  background-image: url(../images/bg/bg-image-1.svg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/bg-image-1.svg);
 }
 
 .bg_image--2 {
-  background-image: url(../images/bg/bg-image-2.svg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/bg-image-2.svg);
 }
 
 .font--1 {
@@ -14716,7 +14716,7 @@ Masonary Grid List
   top: 69px;
   font-weight: 600;
   z-index: 3;
-  background-image: url("../images/shape/quote.svg");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/quote.svg");
   background-repeat: no-repeat, repeat;
   width: 52px;
   height: 44px;
@@ -16900,7 +16900,7 @@ Axil Case Study
 .axil-pricing-table .pricing-header .price-wrapper .date-option select {
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
-  background: url(../images/icons/arrow-icon.png) no-repeat right white;
+  background: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/arrow-icon.png) no-repeat right white;
   display: inline-block;
   position: relative;
   padding-right: 12px;
@@ -17438,7 +17438,7 @@ Slider Style One
 }
 
 .axil-slide.slide-style-2.bg-image--3 {
-  background-image: url(../images/bg/bg-image-3.jpg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/bg-image-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -17832,7 +17832,7 @@ Slider Style One
 }
 
 .axil-slide.banner-technology.bg_image--1 {
-  background-image: url(../images/bg/bg-image-3.jpg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/bg-image-3.jpg);
 }
 
 .axil-slide.banner-technology.theme-gradient::after {
@@ -17902,7 +17902,7 @@ Slider Style One
 }
 
 .marque-images {
-  background-image: url(../images/slider/designer-text.png);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/b7e0d893/keystroke/img/designer-text.png);
   background-repeat: repeat-x;
   background-size: auto;
   height: 468px;
