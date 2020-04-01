@@ -11647,7 +11647,6 @@ ul.mainmenu li.has-dropdown.active ul.axil-submenu.visible {
 .side-nav .side-nav-inner .form-group button.side-nav-search-btn i {
   color: #757589;
   font-size: 20px;
-  font-weight: 400;
 }
 
 .side-nav .side-nav-inner .form-group button.side-nav-search-btn:hover i {
@@ -11951,7 +11950,6 @@ ul.mainmenu li.has-dropdown.active ul.axil-submenu.visible {
 }
 
 .ax-search-area a.search-trigger i {
-  font-weight: 400;
   color: #000248;
 }
 
@@ -13899,7 +13897,6 @@ Contact Form Style
 
 .axil-contact-form.contact-form-style-1 .callto-action-wrapper span i {
   font-size: 22px;
-  font-weight: 400;
   color: #000248;
   line-height: 26px;
   padding-right: 4px;
@@ -15659,7 +15656,7 @@ ul.client-list li a img {
 
 .axil-call-to-action .callto-action > span i {
   padding-right: 14px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .axil-call-to-action-area.shape-position {
@@ -16756,7 +16753,7 @@ Axil Case Study
   font-size: 18px;
   line-height: 18px;
   content: "\f00c";
-  font-weight: 400;
+  font-weight: 600;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
