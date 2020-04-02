@@ -14119,7 +14119,7 @@ Contact Form Style
   transition: 0.4s;
 }
 
-.form-group.focused label {
+.form-group.focused p {
   top: -17px;
   font-size: 12px;
   color: #702FFF;
