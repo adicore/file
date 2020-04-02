@@ -932,7 +932,7 @@ ul.mainmenu, .side-nav .side-nav-inner .side-nav-content ul.main-navigation, .po
 }
 
 .link-hover a, #scrollUp, ul.mainmenu li a, ul.mainmenu li.has-dropdown ul.axil-submenu li a, .close-sidenav button.close-button i, .side-nav .side-nav-inner .form-group button.side-nav-search-btn i, .side-nav .side-nav-inner .side-nav-content ul.main-navigation li a, .side-nav .side-nav-inner .side-nav-content .axil-contact-info-inner .axil-contact-info .address p a, .axil-scroll-navigation .nav .nav-item a::after, a.axil-button.axil-link-button::after,
-button.axil-button.axil-link-button::after, .ft-social-share li a, ul.social-share li a, ul.social-share li a i, ul.social-share.social-share-style-2 li a i, ul.social-share.social-share-style-2 li a span, ul.social-share.style-rounded li a, ul.social-share.style-rounded.bg-color--white li a, ul.followers-list li a span, .axil-service .inner .content h4.title a, .axil-service .inner .content a.axil-button, .axil-service .inner .content a.axil-button::after, .axil-service.service-bg-gray .inner, .axil-contact-form.contact-form-style-1 .callto-action-wrapper span a, .form-group input[type="submit"], .axil-testimonial, .axil-testimonial .inner::after, .axil-testimonial .description a.axil-link-button, .axil-testimonial .description a.axil-link-button::after, .brand-list li a, .brand-list li a img, .axil-blog-list .blog-top .title a, .axil-call-to-action .callto-action > span a, .axil-case-study .content .inner h4.title a, .axil-accordion .card .card-header h5 .btn.btn-link, .axil-accordion .card .collapse::after, .axil-accordion--2 .card .card-header .btn.btn-link, .axil-breadcrumb-area.breadcrumb-style-2 ul.ax-breadcrumb li a, .axil-address-list .axil-address p a, .axil-single-widget.small-post-wrapper .small-post .content h6 a, .axil-single-widget.tags ul.tags-list li a, .privacy-policy-area a::after, .pv-banner-area .inner a.scroll-down-btn, .pv-banner-area .inner a.scroll-down-btn span, .single-demo a h5.title, .pv-footer-styles .pv-copyright-area .copyright-inner .inner-left .quick-links li a {
+button.axil-button.axil-link-button::after, .ft-social-share li a, ul.social-share li a, ul.social-share li a i, ul.social-share.social-share-style-2 li a i, ul.social-share.social-share-style-2 li a span, ul.social-share.style-rounded li a, ul.social-share.style-rounded.bg-color--white li a, ul.followers-list li a span, .axil-service .inner .content h4.title a, .axil-service .inner .content a.axil-button, .axil-service .inner .content a.axil-button::after, .axil-service.service-bg-gray .inner, .axil-contact-form.contact-form-style-1 .callto-action-wrapper span a, .form-group input[type="button"], .axil-testimonial, .axil-testimonial .inner::after, .axil-testimonial .description a.axil-link-button, .axil-testimonial .description a.axil-link-button::after, .brand-list li a, .brand-list li a img, .axil-blog-list .blog-top .title a, .axil-call-to-action .callto-action > span a, .axil-case-study .content .inner h4.title a, .axil-accordion .card .card-header h5 .btn.btn-link, .axil-accordion .card .collapse::after, .axil-accordion--2 .card .card-header .btn.btn-link, .axil-breadcrumb-area.breadcrumb-style-2 ul.ax-breadcrumb li a, .axil-address-list .axil-address p a, .axil-single-widget.small-post-wrapper .small-post .content h6 a, .axil-single-widget.tags ul.tags-list li a, .privacy-policy-area a::after, .pv-banner-area .inner a.scroll-down-btn, .pv-banner-area .inner a.scroll-down-btn span, .single-demo a h5.title, .pv-footer-styles .pv-copyright-area .copyright-inner .inner-left .quick-links li a {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -14080,7 +14080,7 @@ Contact Form Style
   padding-top: 8px;
 }
 
-.form-group input[type="submit"] {
+.form-group input[type="button"] {
   border: 2px solid #000248;
   background: #ffffff;
   color: #000248;
@@ -14092,7 +14092,7 @@ Contact Form Style
   text-transform: capitalize;
 }
 
-.form-group input[type="submit"]:hover {
+.form-group input[type="button"]:hover {
   background: #000248;
   color: #ffffff;
 }
