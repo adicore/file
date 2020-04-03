@@ -231,12 +231,14 @@ iframe {
   position: relative;
   border: 1px solid #e6e6e6;
   border-radius: 13px;
-  padding: 10px 30px 9px 22px;
+  padding: 10px 10px 9px 10px;
   margin-bottom: 20px;
+  float:left;
+  margin-right:15px;
 }
 
 .rs1-wrap-input100 {
-  width: calc((100% - 30px) / 2);
+  width: 48%;
 }
 
 .label-input100 {
