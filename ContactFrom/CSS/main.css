@@ -237,6 +237,16 @@ iframe {
   margin-right:15px;
 }
 
+.right.theformnumber.bg1.rs1-wrap-input100 {
+    float: right;
+    margin-left: 15px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 10px 9px 10px;
+    margin-bottom: 20px;
+}
+
 .rs1-wrap-input100 {
   width: 48%;
 }
