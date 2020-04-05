@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="9px" viewBox="0 0 27 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>warning-corner</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mac-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.-UI-Kit" transform="translate(-49.000000, -77.000000)" fill="#FF586E">
+            <g id="Group-6" transform="translate(49.000000, 77.000000)">
+                <path d="M26.3479623,0 C24.490736,0 22.7096369,0.738061188 21.3967645,2.05170329 L16.3019332,7.14952162 C14.7402939,8.7120765 12.2076341,8.71281871 10.6450792,7.15117939 C10.6403807,7.14648367 8.97598142,5.45806349 5.65188133,2.08591884 C4.33635527,0.75136497 2.54066051,0 0.666722717,0 L26.3479623,0 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>
