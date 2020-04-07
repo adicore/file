@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.contohdomain\.com [NC]
+RewriteRule ^(.*)$ http://contohdomain.com/$1 [L,R=301]
