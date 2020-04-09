@@ -1,6 +1,6 @@
 <?php
 // koneksi ke database SQLite3
-require 'db.php';
+require 'https://cdn.statically.io/gh/adicore/file/2ce1e930/hanyatestingan/testws/db.php';
 
 // masukkan data
 $kode_delete = file_get_contents('php://input');;
