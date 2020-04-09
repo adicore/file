@@ -9,7 +9,7 @@ angular.module('arsipApp', []).controller('arsipController', function($scope, $h
   // controller "arsipController" memiliki property/anggota "data" untuk menampung data arsip
   arsip.data = [];
   // ambil data arsip dari server
-  $http.get('https://cdn.statically.io/gh/adicore/file/b2c88615/hanyatestingan/testws/index.php').then(function(response) {
+  $http.get('https://cdn.statically.io/gh/adicore/file/eb5acfd0/hanyatestingan/testws/index.php').then(function(response) {
     arsip.data = response.data;
   });
 
@@ -19,7 +19,7 @@ angular.module('arsipApp', []).controller('arsipController', function($scope, $h
     var updateIndex = arsip.data.findIndex(function(obj) {
       return obj.kode == arsip.inputKode;
     });
-    $http.post('https://cdn.statically.io/gh/adicore/file/b2c88615/hanyatestingan/testws/post.php', angular.toJson(baru))
+    $http.post('https://cdn.statically.io/gh/adicore/file/eb5acfd0/hanyatestingan/testws/post.php', angular.toJson(baru))
     .then(function() {
       if (updateIndex > -1) {
         arsip.data[updateIndex].kode = arsip.inputKode;
@@ -41,7 +41,7 @@ angular.module('arsipApp', []).controller('arsipController', function($scope, $h
     });
     var konf = confirm('Yakin akan menghapus data ini?');
     if (konf) {
-      $http.delete('https://cdn.statically.io/gh/adicore/file/b2c88615/hanyatestingan/testws/delete.php', {data: kode})
+      $http.delete('https://cdn.statically.io/gh/adicore/file/eb5acfd0/hanyatestingan/testws/delete.php', {data: kode})
       .then(function() {
         arsip.data.splice(deleteIndex, 1);
       }, function() {
