@@ -22,7 +22,7 @@
 /*------------------------ 1 Body and Core Css ------------------------*/		
 
 
-@import url("assets.css");
+@import url("https://cdn.statically.io/gh/adicore/file/367116fc/Margo/css/assets.css");
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -458,7 +458,7 @@ header.white-home .logo .black{
 
 .darkness.halfimage .half-image:after{
     content: '';
-    background: url(../images/mask-dark.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/17cc349b/Margo/img/mask-dark.png);
     height: 100%;
     width: 100%;
     z-index: 10;
@@ -526,7 +526,7 @@ header.agency.white-home .logo.white{
 .section-out{
     background-size: cover;
     background-position: center center;
-    background: url(../images/background.png) #fff no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/17cc349b/Margo/img/background.png) #fff no-repeat;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -539,7 +539,7 @@ header.agency.white-home .logo.white{
 }
 
 .darkness .section-out{
-    background: url(../images/dark-background.jpg) #000 no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/17cc349b/Margo/img/dark-background.jpg) #000 no-repeat;
 }
 
 .darkness .page-layout {
@@ -1073,7 +1073,7 @@ header.second .follow-us i{
 
 .half-image:after{
     content: '';
-    background: url(../images/mask.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/17cc349b/Margo/img/mask.png);
     height: 100%;
     width: 100%;
     z-index: 10;
@@ -3060,7 +3060,7 @@ blockquote{
     }
 
     .portfolio_filter{
-        cursor: url(../images/close.png), e-resize;
+        cursor: url(https://cdn.statically.io/gh/adicore/file/17cc349b/Margo/img/close.png), e-resize;
     }
 
     .portfolio_filter:before{
