@@ -3,7 +3,6 @@ others();
 carousel();
 nav_type();
 PortfolioGrids();
-cform();
 typist();
 port_close();
 lightbox();
