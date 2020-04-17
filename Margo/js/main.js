@@ -12,7 +12,6 @@ backlink();
 down_icon();
 slider();
 distortion();
-ContactForm();
 ZoomImage();
 mobile_image_height();
 
@@ -41,7 +40,6 @@ backlink();
 down_icon();
 slider();
 distortion();
-ContactForm();
 ZoomImage();
 mobile_image_height();
     
@@ -840,23 +838,6 @@ function PortfolioGrids() {
 
 
 
-//CONTACT FORM
-function cform() {
-	$("form .form-group input, form .form-group textarea").focus(function(){
-  
-	  $(this).parents('.form-group').addClass('in');
-  
-	  $('form .form-group input, form .form-group textarea').blur(function()
-		  {
-			  if( !$(this).val() ) {
-					$(this).parents('.form-group').removeClass('in');
-			  }
-		  });
-	});
-}
-  
-
-
 // HOME TEXT TYPE EFFECT 
 function typist() {
     var typist;
@@ -1337,36 +1318,3 @@ let sketch = new Sketch2({
 
 
 }
-  
-
-
-
-
-  //CONTACT FORM
-  function ContactForm() {	
-	
-	if( jQuery('#contact-formular').length > 0 ){
-		$('#contactform').submit(function(){
-			var action = $(this).attr('action');
-			$("#message").slideUp(750,function() {
-				$('#message').hide();
-				$('#submit').attr('disabled','disabled');		
-				$.post(action, {
-					name: $('#name').val(),
-					email: $('#email').val(),
-					comments: $('#comments').val()
-				},
-				function(data){
-					document.getElementById('message').innerHTML = data;
-					$('#message').slideDown('slow');
-					$('#contactform img.loader').fadeOut('slow',function(){$(this).remove()});
-					$('#submit').removeAttr('disabled');
-					if(data.match('success') != null) $('#contactform').slideUp('slow');		
-				}
-			);		
-			});		
-			return false;		
-		});		
-	}
-
-}//End ContactForm		
