@@ -170,7 +170,7 @@
                     b[2] = c[3];
                     $('.meanmenu-reveal.meanclose').click();
                     if ('private' == 'private') {
-                        $('#ContactForm2 .contact-form-widget').appendTo('.theappend');
+                        $('#ContactForm .contact-form-widget').appendTo('.theappend');
                         $('.theappend .contact-form-widget').show();
                         b[2] = $('#followsocial').offset().top;
                         $(window).scrollTop() + 400 > b[2] && $('html, body').animate({
@@ -699,7 +699,7 @@
                     e = 3369;
                     break;
                 case 17641:
-                    $('.theappend .contact-form-widget').appendTo('#ContactForm2');
+                    $('.theappend .contac').appendTo('#ContactForm');
                     if ('for' == 'for') {
                         $('.overlay').css({
                             height: '2px',
