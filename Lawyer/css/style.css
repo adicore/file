@@ -636,7 +636,7 @@ p {
     content: '';
     width: 356px;
     height: 301px;
-    background-image: url(../images/dots.png);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/726a6c5c/Lawyer/img/dots.png);
     background-position: center center;
     background-repeat: no-repeat;
     bottom: -30px;
@@ -685,7 +685,7 @@ p {
   .practice_area::before {
     position: absolute;
     content: '';
-    background-image: url(../images/dots-2.png);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/726a6c5c/Lawyer/img/dots-2.png);
     background-position: center center;
     background-repeat: repeat;
     width: 100%;
@@ -1040,7 +1040,7 @@ p {
   .contact_area::before {
     position: absolute;
     content: '';
-    background-image: url(../images/dots-2.png);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/726a6c5c/Lawyer/img/dots-2.png);
     background-position: center center;
     background-repeat: repeat;
     width: 100%;
