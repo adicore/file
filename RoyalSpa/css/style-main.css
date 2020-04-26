@@ -6825,7 +6825,7 @@ blockquote p {
  * -----------------------------------------------
 */
 .testimunial {
-  background: url('../images/features-bg.jpg') repeat center top;
+  background: url('https://cdn.statically.io/gh/adicore/file/ce7a3411/RoyalSpa/img/features-bg.jpg') repeat center top;
 }
 .carousel-control.left,
 .carousel-control.right {
