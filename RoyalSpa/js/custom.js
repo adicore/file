@@ -89,7 +89,7 @@ var THEMEMASCOT = THEMEMASCOT || {};
             var ajaxLoadContent = true;
             if( ajaxLoadContent ) {
                 $.ajax({
-                    url: "ajax-load/bootstrap-parent-modal.html",
+                    url: "http://kodesolution.website/html/html/health-beauty/royalspa/v2.0/ajax-load/bootstrap-parent-modal.html",
                     success: function (data) { $('body').append(data); },
                     dataType: 'html'
                 });
@@ -103,7 +103,7 @@ var THEMEMASCOT = THEMEMASCOT || {};
             var $style_switcher = $('#style-switcher');
             if( !$style_switcher.length && showSwitcher ) {
                 $.ajax({
-                    url: "color-switcher/style-switcher.html",
+                    url: "http://kodesolution.website/html/html/health-beauty/royalspa/v2.0/color-switcher/style-switcher.html",
                     success: function (data) { $('body').append(data); },
                     dataType: 'html'
                 });
@@ -1989,5 +1989,4 @@ var THEMEMASCOT = THEMEMASCOT || {};
     $window.on('resize', THEMEMASCOT.documentOnResize.init);
 
 })(jQuery);
-
 
