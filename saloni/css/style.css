@@ -14325,7 +14325,7 @@ margin-bottom:0px;}
 }
 .discount-add-info .hilite-large-title{position:absolute;}
 .discount-add-info .hilite-large-title span{
-	position: absolute;
+	position: relative;
     left: -70px;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
