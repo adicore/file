@@ -1540,16 +1540,16 @@ header .navbar .navbar-brand {
 
 /*============== wave_two_section_five css ==========*/
 .bg-title {
-  font-size: 300px;
+  font-size: 270px;
   font-weight: 700;
   line-height: 320px;
   color: rgba(0, 0, 0, 0.05);
   top: 50%;
-  left: 50%;
+  left: 52%;
   transform: translate(-50%, -50%);
   position: absolute;
   text-transform: uppercase;
-  width: 100%;
+  width: 120%;
   text-align: center;
 }
 .bg-title .layer {
