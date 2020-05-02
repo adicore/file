@@ -491,7 +491,7 @@ header .navbar .navbar-brand {
   transition: all 0.3s linear;
 }
 .navbar .offcanfas_menu > .nav-item.submenu .nav-link:after {
-  background: url("../img/pluse.png");
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/pluse.png");
   height: 16px;
 }
 .navbar .offcanfas_menu > .nav-item.submenu .nav-link:before {
@@ -923,7 +923,7 @@ header .navbar .navbar-brand {
 }
 .wave_one_section_three .w_content_two:before {
   content: "";
-  background: url("../img/home_one/dot.png") no-repeat scroll center left;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/dot.png") no-repeat scroll center left;
   position: absolute;
   top: -45px;
   left: -60px;
@@ -986,7 +986,7 @@ header .navbar .navbar-brand {
 }
 .w_mockup_img:before {
   content: "";
-  background: url("../img/home_one/shap_circle.png") no-repeat center top;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/shap_circle.png") no-repeat center top;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1033,7 +1033,7 @@ header .navbar .navbar-brand {
 }
 
 .w_footer_area {
-  background: url("../img/home_one/footer_bg.jpg") no-repeat scroll center 0/cover;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/footer_bg.jpg") no-repeat scroll center 0/cover;
   padding: 100px 0px 120px;
 }
 
@@ -1180,7 +1180,7 @@ header .navbar .navbar-brand {
 /*----------------------------------------------------*/
 /*============== wave_two_section_one css =============*/
 .wave_two_section_one {
-  background: url("../img/home_three/first_banner.jpg") no-repeat scroll center 0/cover;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/first_banner.jpg") no-repeat scroll center 0/cover;
   position: relative;
 }
 .wave_two_section_one .t_two {
@@ -1764,12 +1764,12 @@ header .navbar .navbar-brand {
   z-index: -1;
 }
 .sc_clients_logo_info:before {
-  background: url("../img/home_three/clients_bg_l.png");
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/clients_bg_l.png");
   left: -85px;
   top: -40px;
 }
 .sc_clients_logo_info:after {
-  background: url("../img/home_three/clients_bg_r.png");
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/clients_bg_r.png");
   right: -85px;
   bottom: -80px;
 }
@@ -2051,7 +2051,7 @@ header .navbar .navbar-brand {
   color: #101010;
 }
 .multi_content .line {
-  background: url("../img/home-four/line.png") no-repeat scroll center 0;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/line.png") no-repeat scroll center 0;
   width: 95px;
   height: 15px;
   display: block;
@@ -2158,7 +2158,7 @@ header .navbar .navbar-brand {
   content: "";
   width: 100%;
   position: absolute;
-  background: url("../img/home_two/dot.png") no-repeat scroll top left;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/dot2.png") no-repeat scroll top left;
   height: 100%;
   top: -35px;
   left: -35px;
@@ -2343,7 +2343,7 @@ header .navbar .navbar-brand {
   height: 100%;
   top: 0px;
   left: 0;
-  background: url("../img/home_three/round_animation.png") no-repeat scroll center center;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/round_animation.png") no-repeat scroll center center;
   position: absolute;
   animation: rotate 10s both 5s infinite;
 }
@@ -3452,7 +3452,7 @@ header .navbar .navbar-brand {
 }
 .blog_audio_item .mejs__container:before {
   content: "";
-  background: url(../img/blog/mick.png) no-repeat right top;
+  background: url(https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/mick.png) no-repeat right top;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3557,7 +3557,7 @@ blockquote {
 }
 blockquote:before {
   content: "";
-  background: url("../img/blog/quote.jpg") no-repeat scroll right bottom;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/quote.jpg") no-repeat scroll right bottom;
   position: absolute;
   right: 40px;
   bottom: 0;
@@ -3583,7 +3583,7 @@ blockquote .author {
   padding: 38px 120px 20px 50px;
 }
 .blockquote_two:before {
-  background: url(../img/blog/chain.png) no-repeat scroll center right;
+  background: url(https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/chain.png) no-repeat scroll center right;
   right: 0;
   height: 100%;
   top: 0px;
@@ -3638,7 +3638,7 @@ blockquote .author {
   margin-bottom: 36px;
 }
 .blog_details blockquote:before {
-  background: url("../img/blog/qoute2.png") no-repeat scroll right bottom;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/qoute2.png") no-repeat scroll right bottom;
   height: 40px;
   bottom: 45px;
 }
@@ -3650,7 +3650,7 @@ blockquote .author {
   height: 86px;
   width: 100%;
   z-index: -1;
-  background: url("../img/blog/qoute.png") no-repeat scroll left top;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/qoute.png") no-repeat scroll left top;
 }
 .blog_details blockquote p, .blog_details blockquote .author {
   color: #fff;
@@ -3686,7 +3686,7 @@ blockquote .author {
   height: 100%;
   top: 0;
   right: 20px;
-  background: url("../img/blog/leaf.png") no-repeat scroll center right;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/leaf.png") no-repeat scroll center right;
   position: absolute;
   z-index: -1;
 }
@@ -3989,7 +3989,7 @@ blockquote .author {
   content: "";
   width: 100%;
   height: 100%;
-  background: url("../img/blog/instragram.png") no-repeat scroll center center;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/instragram.png") no-repeat scroll center center;
   position: absolute;
   top: 0;
   left: 0;
@@ -4108,7 +4108,7 @@ blockquote .author {
 }
 .footer_area:before {
   content: "";
-  background: url("../img/about/footer_png.png") no-repeat scroll center 0/cover;
+  background: url("https://cdn.statically.io/gh/adicore/file/c2d863fc/Wavee/img/footer_png.png") no-repeat scroll center 0/cover;
   position: absolute;
   top: 0;
   left: 0;
