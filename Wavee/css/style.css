@@ -2532,10 +2532,10 @@ header .navbar .navbar-brand {
 }
 
 .blog_details_br_content h2 {
-  font-size: 54px;
+  font-size: 35px;
   font-weight: 700;
-  color: #fff;
-  margin-bottom: 30px;
+  color: #212529;
+  margin: 10px;
 }
 .blog_details_br_content .post_details {
   align-items: center;
