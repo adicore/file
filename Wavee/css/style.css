@@ -3513,6 +3513,7 @@ header .navbar .navbar-brand {
 }
 .comment_btn img {
   margin-right: 6px;
+  width: 15px;
 }
 .comment_btn:hover {
   color: #7a51ed;
@@ -3629,7 +3630,6 @@ blockquote .author {
 
 .blog_details img {
   box-shadow: 0px 15px 20px 0px rgba(0, 21, 46, 0.05);
-  margin-bottom: 38px;
   max-width: 100%;
 }
 .blog_details p {
