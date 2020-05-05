@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'iconfont';
   src:
-    url('../fonts/iconfont.ttf?paj8zt') format('truetype'),
-    url('../fonts/iconfont.woff?paj8zt') format('woff'),
-    url('../fonts/iconfont.svg?paj8zt#iconfont') format('svg');
+    url('https://cdn.statically.io/gh/adicore/file/8eef03e0/Beautypress/fonts/iconfont.ttf?paj8zt') format('truetype'),
+    url('https://cdn.statically.io/gh/adicore/file/8eef03e0/Beautypress/fonts/iconfont.woff?paj8zt') format('woff'),
+    url('https://cdn.statically.io/gh/adicore/file/8eef03e0/Beautypress/fonts/iconfont.svg?paj8zt#iconfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
