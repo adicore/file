@@ -539,16 +539,6 @@ Section
     background-image: -ms-linear-gradient( 0deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgb(213, 43, 255) 100%);
 }
 
-/* ================= section padding =======================*/
-
-.section-padding {
-    padding: 100px 0;
-}
-
-.beautypress-padding-bottom {
-    padding: 0 0 120px;
-}
-
 /* ==================== section heading ================================*/
 
 .beautypress-section-headinig {
@@ -718,10 +708,6 @@ Section
 
 .bg-color-green {
     background-color: #4CA14B !important;
-}
-
-.bg-color-gray {
-    background-color: #eef2f5 !important;
 }
 
 .bg-color-gray-2 {
