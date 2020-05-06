@@ -3225,14 +3225,6 @@ Section
 								10. INDEX-V1 News Feeds
 ===============================================================================*/
 
-.beautypress-single-newsletter {
-    box-shadow: var(--primary-shadow);
-    background-color: var(--color-white);
-    -webkit-transition: all .4s ease;
-    transition: all .4s ease;
-    margin: 0 0 30px;
-}
-
 .beautypress-newsfeed-header {
     position: relative;
     height: 217px;
