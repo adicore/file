@@ -443,11 +443,7 @@ NioApp = function(f, b, d, n) {
         })
     }, f.components.docReady.push(f.Plugins.videoBG), c.on("resize", function() {
         f.components.docReady.push(f.Plugins.videoBG)
-    }), 
-        var e = b(".promo-btn"),
-            s = e.innerHeight();
-        e.next().css("margin-top", s)
-    }, f.components.winLoad.push(f.promoPanel), f.colorPanel = function() {
+    }), f.components.winLoad.push(f.promoPanel), f.colorPanel = function() {
         var i = b(".color-trigger");
 
         function o(a, i) {
