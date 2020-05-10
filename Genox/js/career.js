@@ -102,7 +102,7 @@ $(document).ready(function () {
 		e = $(".contact-form-wrapper .linkedin-form").val(),
                 f = $(".contact-form-wrapper github-form").val(),
 		g = $(".contact-form-wrapper .themsg .form2msg").val(),
-                a = "New Order:\n_____________________________________\n\nFirst Name: " + a + "\nLast Name: " + b + "\nEmail: " + c + "\nPhone Number: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
+                a = "Job applicant:\n_____________________________________\n\nFirst Name: " + a + "\nLast Name: " + b + "\nEmail: " + c + "\nPhone Number: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
 		$(".contact-form-wrapper .form2contact2 .contact-form-email-message").val(a)
 	}
 	function l(a) {
