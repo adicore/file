@@ -103,7 +103,7 @@ $(document).ready(function () {
                 f = $(".contact-wrapper github-url").val(),
 		g = $(".contact-wrapper .themsg .form2msg").val(),
                 a = "New Order:\n_____________________________________\n\nFirst Name: " + a + "\nLast Name: " + b + "\nEmail: " + c + "\nPhone Number: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
-		$(".contact-wrapper .form2contact2 .contact-form-email-message").val(a)
+		$(".contact-wrapper .form2contact-2 .contact-form-email-message").val(a)
 	}
 	function l(a) {
 		return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(a)
