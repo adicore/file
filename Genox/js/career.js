@@ -95,15 +95,15 @@ $(document).ready(function () {
 		$("#ContactForm .contact-form-email-message").val(a)
 	}
 	function f() {
-		var a = $(".contact-wrapper .form-firstname").val(),
-		b = $(".contact-wrapper .form-lastname").val(),
-		c = $(".contact-wrapper .contact-form-email").val(),
-		d = $(".contact-wrapper .form2-phone").val(),
+		var a = $(".contact-wrapper .contact-form-name").val(),
+		b = $(".contact-wrapper .contact-form-email").val(),
+		c = $(".contact-wrapper .form2-phone").val(),
+		d = $(".contact-wrapper .Job-Position #job").val(),
 		e = $(".contact-wrapper .Linkedin-url").val(),
                 f = $(".contact-wrapper github-url").val(),
 		g = $(".contact-wrapper .themsg .form2msg").val(),
-                a = "New Order:\n_____________________________________\n\nFirst Name: " + a + "\nLast Name: " + b + "\nEmail: " + c + "\nPhone Number: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
-		$(".contact-wrapper .form2contact-2 .contact-form-email-message").val(a)
+                a = "New Order:\n_____________________________________\n\nName: " + a + "\nEmail: " + b + "\nPhone Number: " + c + "\nJob Application: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
+		$(".contact-wrapper .form2contact2 .contact-form-email-message").val(a)
 	}
 	function l(a) {
 		return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(a)
