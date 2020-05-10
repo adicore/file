@@ -98,7 +98,7 @@ $(document).ready(function () {
 		var a = $(".contact-form-wrapper .contact-form-name").val(),
 		b = $(".contact-form-wrapper .contact-form-email").val(),
 		c = $(".contact-form-wrapper .form2-phone").val(),
-		d = $(".contact-form-wrapper .thecompany").val(),
+		d = $(".contact-form-wrapper .company-name").val(),
 		e = $(".contact-form-wrapper .datetimepk input").val(),
         f = $(".contact-form-wrapper .Budget #budget").val(),
 		g = $(".contact-form-wrapper .themsg .form2msg").val(),
