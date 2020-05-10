@@ -95,22 +95,22 @@ $(document).ready(function () {
 		$("#ContactForm .contact-form-email-message").val(a)
 	}
 	function f() {
-		var a = $(".contact-form-wrapper .form-firstname").val(),
-		b = $(".contact-form-wrapper .form-lastname").val(),
-		c = $(".contact-form-wrapper .contact-form-email").val(),
-		d = $(".contact-form-wrapper .form2-phone").val(),
-		e = $(".contact-form-wrapper .Linkedin-url").val(),
-                f = $(".contact-form-wrapper github-url").val(),
-		g = $(".contact-form-wrapper .themsg .form2msg").val(),
+		var a = $(".contact-wrapper .form-firstname").val(),
+		b = $(".contact-wrapper .form-lastname").val(),
+		c = $(".contact-wrapper .contact-form-email").val(),
+		d = $(".contact-wrapper .form2-phone").val(),
+		e = $(".contact-wrapper .Linkedin-url").val(),
+                f = $(".contact-wrapper github-url").val(),
+		g = $(".contact-wrapper .themsg .form2msg").val(),
                 a = "New Order:\n_____________________________________\n\nFirst Name: " + a + "\nLast Name: " + b + "\nEmail: " + c + "\nPhone Number: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
-		$(".contact-form-wrapper .form2contact2 .contact-form-email-message").val(a)
+		$(".contact-wrapper .form2contact2 .contact-form-email-message").val(a)
 	}
 	function l(a) {
 		return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(a)
 	}
 	function p() {
 		var a = !0;
-		$(".contact-form-wrapper .formrequireemail").each(function () {
+		$(".contact-wrapper .formrequireemail").each(function () {
 			if (l(this.value)) $(this).css({
 				"border-color": "#fff"
 			});
@@ -119,7 +119,7 @@ $(document).ready(function () {
 			}),
 			a = !1
 		});
-		$(".contact-form-wrapper .formrequire").each(function () {
+		$(".contact-wrapper .formrequire").each(function () {
 			var b = this.value;
 			if ("" == b || null == b) return $(this).css({
 				"border-color": "#c1694e"
@@ -165,8 +165,8 @@ $(document).ready(function () {
 	});
 	$("#glb-raintemplates").on("click", ".btnreserva", function (a) {
 		$(".meanmenu-reveal.meanclose").click();
-		$("#ContactForm1 .contact-form-widget").appendTo(".contact-form-wrapper");
-		$(".contact-form-wrapper .contact-form-widget").show();
+		$("#ContactForm1 .contact-form-widget").appendTo(".contact-wrapper");
+		$(".contact-wrapper .contact-form-widget").show();
 		a = $("#followsocial").offset().top;
 		$(window).scrollTop() + 400 > a && $("html, body").animate({
 			scrollTop: $("body").offset().top - 200
@@ -196,7 +196,7 @@ $(document).ready(function () {
 	});
 	$("button.close").one("click", function () {});
 	$("button.close").click(function () {
-		$(".contact-form-wrapper .contact-form-widget").appendTo("#ContactForm1");
+		$(".contact-wrapper .contact-form-widget").appendTo("#ContactForm1");
 		$(".overlay").css({
 			height: "2px",
 			top: "50%"
@@ -243,7 +243,7 @@ $(document).ready(function () {
 	$(".check-with-cash").val(cashondelivery);
 	$(".check-with-cash").hide();
 	$(".submitreser").click(function () {
-		p() && (f(), $(".contact-form-wrapper .contact-form-button-submit").click(), setTimeout(function () {
+		p() && (f(), $(".contact-wrapper .contact-form-button-submit").click(), setTimeout(function () {
 			$("button.close").click()
 		},
 		4E3))
