@@ -71,12 +71,12 @@ simpleCart({
 //Create Option Shipping Check
 $(document).ready(function () {
 	function b() {
-		$("#ContactForm .contact-form-error-message").hide();
-		$("#ContactForm .contact-form-success-message").hide();
-		var a = $("#ContactForm .contact-form-name").val(),
-		b = $("#ContactForm .contact-form-email").val(),
-		c = $("#ContactForm .contact-form-number").val(),
-		d = $("#ContactForm .contact-form-website").val(),
+		$("#ContactForm1 .contact-form-error-message").hide();
+		$("#ContactForm1 .contact-form-success-message").hide();
+		var a = $("#ContactForm1 .contact-form-name").val(),
+		b = $("#ContactForm1 .contact-form-email").val(),
+		c = $("#ContactForm1 .contact-form-number").val(),
+		d = $("#ContactForm1 .contact-form-website").val(),
 		k = $("#raintemplates-contact-form-message").val(),
 		g = $(".contact-form-company").val(),
 		h = "",
@@ -90,9 +90,9 @@ $(document).ready(function () {
 		var e = "";
 		$("#paypal").is(":checked") && (e = "Paypal");
 		$("#cashde").is(":checked") && (e = "Cash On Delivery");
-		$(".infobasic-3").html('<textarea class="contact-form-email-message" cols="25" id="ContactForm_contact-form-email-message" name="email-message" rows="5"></textarea>');
+		$(".infobasic-3").html('<textarea class="contact-form-email-message" cols="25" id="ContactForm1_contact-form-email-message" name="email-message" rows="5"></textarea>');
 		a = "Payment Method:" + e + "\n_____________________________________\n\nName :____________:" + a + "\nEmail :____________:" + b + "\nPhone Number :____:" + c + "\nAddress :__________:" + d + "\nRegion :___________:" + k + "\nCompany :_________:" + g + "\n\nCustomer's Order:\n_____________________________________\n\n" + h + "_____________________________________\nGrand Total:" + r + "\n_____________________________________";
-		$("#ContactForm .contact-form-email-message").val(a)
+		$("#ContactForm1 .contact-form-email-message").val(a)
 	}
 	function f() {
 		var a = $(".contact-wrapper .contact-form-name").val(),
@@ -133,12 +133,12 @@ $(document).ready(function () {
 	}
 	function n() {
 		var a = !0;
-		$("#ContactForm .contact-form-email").each(function () {
+		$("#ContactForm1 .contact-form-email").each(function () {
 			if (l(this.value)) $(this).closest(".form-section").find(".message-show").hide();
 			else return $(this).closest(".form-section").find(".message-show").show(),
 			a = !1
 		});
-		$("#ContactForm .eachrequire").each(function () {
+		$("#ContactForm1 .eachrequire").each(function () {
 			var b = this.value;
 			if ("" == b || null == b) return $(this).closest(".form-section").find(".message-show").show(),
 			a = !1;
@@ -165,7 +165,7 @@ $(document).ready(function () {
 	});
 	$("#glb-raintemplates").on("click", ".btnreserva", function (a) {
 		$(".meanmenu-reveal.meanclose").click();
-		$("#ContactForm1 .contact-form-widget").appendTo(".contact-wrapper");
+		$("#ContactForm3 .contact-form-widget").appendTo(".contact-wrapper");
 		$(".contact-wrapper .contact-form-widget").show();
 		a = $("#followsocial").offset().top;
 		$(window).scrollTop() + 400 > a && $("html, body").animate({
@@ -196,7 +196,7 @@ $(document).ready(function () {
 	});
 	$("button.close").one("click", function () {});
 	$("button.close").click(function () {
-		$(".contact-wrapper .contact-form-widget").appendTo("#ContactForm1");
+		$(".contact-wrapper .contact-form-widget").appendTo("#ContactForm3");
 		$(".overlay").css({
 			height: "2px",
 			top: "50%"
@@ -252,7 +252,7 @@ $(document).ready(function () {
 		n() ? ($(".cartbuttons").append('<a class="simpleCart_checkout" style="display:none" href="javascript:;">Checkout</a>'), b(), $("html, body").animate({
 			scrollTop: $(".infobasic-2").offset().top
 		},
-		1200), $(".simpleCart_checkout").click(), $("#ContactForm .contact-form-button-submit").click()) : $("html, body").animate({
+		1200), $(".simpleCart_checkout").click(), $("#ContactForm1 .contact-form-button-submit").click()) : $("html, body").animate({
 			scrollTop: $(".infobasic-1").offset().top - 120
 		},
 		500)
@@ -333,7 +333,7 @@ $(document).ready(function () {
 					Error("Something went badly wrong!")
 				})
 			}
-		}), b(), $("#ContactForm .contact-form-button-submit").click(), $("html, body").animate({
+		}), b(), $("#ContactForm1 .contact-form-button-submit").click(), $("html, body").animate({
 			scrollTop: $(".infobasic-2").offset().top
 		},
 		1200), window.location.replace(successpage_cashondelivery)) : $("html, body").animate({
