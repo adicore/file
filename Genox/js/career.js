@@ -100,7 +100,7 @@ $(document).ready(function () {
 		c = $(".contact-wrapper .form2-phone").val(),
 		d = $(".contact-wrapper .Job-Position #job").val(),
 		e = $(".contact-wrapper .Linkedin-url").val(),
-                f = $(".contact-wrapper github-url").val(),
+                f = $(".contact-wrapper .github-url").val(),
 		g = $(".contact-wrapper .themsg .form2msg").val(),
                 a = "New Order:\n_____________________________________\n\nName: " + a + "\nEmail: " + b + "\nPhone Number: " + c + "\nJob Application: " + d + "\nLinkedin Url: " + e + "\nGithub Url: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
 		$(".contact-wrapper .form2contact2 .contact-form-email-message").val(a)
