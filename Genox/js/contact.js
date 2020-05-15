@@ -98,11 +98,11 @@ $(document).ready(function () {
 		var a = $(".contact-form-wrapper .contact-form-name").val(),
 		b = $(".contact-form-wrapper .contact-form-email").val(),
 		c = $(".contact-form-wrapper .form2-phone").val(),
-		d = $(".contact-form-wrapper .company-name").val(),
+		d = $(".contact-form-wrapper .services #project").val(),
 		e = $(".contact-form-wrapper .datetimepk input").val(),
         f = $(".contact-form-wrapper .Budget #budget").val(),
 		g = $(".contact-form-wrapper .themsg .form2msg").val(),
-                a = "New Order:\n_____________________________________\n\nName: " + a + "\nEmail: " + b + "\nPhone Number: " + c + "\nCompany Name: " + d + "\nProject Start: " + e + "\nBudget: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
+                a = "New Order:\n_____________________________________\n\nName: " + a + "\nEmail: " + b + "\nPhone Number: " + c + "\nService: " + d + "\nProject Start: " + e + "\nBudget: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
 		$(".contact-form-wrapper .form2contact2 .contact-form-email-message").val(a)
 	}
 	function l(a) {
