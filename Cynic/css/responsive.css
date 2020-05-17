@@ -57,7 +57,7 @@
 
 @media screen and (min-width: 1600px) {
 	.banner::after {
-		background: #fff url(../images/banner/banner-round-img.jpg) calc(100% - 308px) 370px no-repeat;
+		background: #fff url(https://cdn.statically.io/gh/adicore/file/4fca61d1/Cynic/img/banner-round-img.jpg) calc(100% - 308px) 370px no-repeat;
 		background-size: 93%;
 		top: -46%;
 		right: -20%;
@@ -68,7 +68,7 @@
 		box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
 	}
 	.small-agency-home-header-bg::after {
-		background: #fff url(../images/banner/banner-round-img-2.jpg) calc(100% - 320px) 405px no-repeat;
+		background: #fff url(https://cdn.statically.io/gh/adicore/file/4fca61d1/Cynic/img/banner-round-img-2.jpg) calc(100% - 320px) 405px no-repeat;
 		background-size: 105%;
 		top: -46%;
 		right: -20%;
