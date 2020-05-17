@@ -423,13 +423,13 @@ button:focus {
 }
 
 .slick-prev {
-    background: url(../images/icon/slick-arrow-left.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-left.png) center center no-repeat;
     left: auto;
     right: 60px;
 }
 
 .slick-next {
-    background: url(../images/icon/slick-arrow-right.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-right.png) center center no-repeat;
     left: auto;
     right: 0;
 }
@@ -441,12 +441,12 @@ button:focus {
 
 .slick-prev:hover,
 .slick-prev:focus {
-    background: url(../images/icon/slick-arrow-left.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-left.png) center center no-repeat;
 }
 
 .slick-next:hover,
 .slick-next:focus {
-    background: url(../images/icon/slick-arrow-right.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-right.png) center center no-repeat;
 }
 
 .slick-prev:hover,
@@ -1920,7 +1920,7 @@ textarea:focus {
 }
 
 .banner::after {
-    background: #fff url(../images/banner/banner-round-img.jpg) center center no-repeat;
+    background: #fff url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/banner-round-img.jpg) center center no-repeat;
     background-size: cover;
     top: -46%;
     right: -20%;
@@ -1932,7 +1932,7 @@ textarea:focus {
 }
 
 .small-agency-home-header-bg::after {
-    background: #fff url(../images/banner/banner-round-img-2.jpg) center center no-repeat;
+    background: #fff url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/banner-round-img-2.jpg) center center no-repeat;
     background-size: cover;
     background-position: calc(100% - 120px) 394px;
     top: -46%;
@@ -2381,7 +2381,7 @@ h1 {
     border-top-right-radius: 350px;
     border-bottom-right-radius: 350px;
     background-color: #fff;
-    background-image: url(../images/about-img.png);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/about-img.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2469,11 +2469,11 @@ h1 {
 }
 
 .featured-project-carousel .carousel-control-prev-icon {
-    background: url(../images/icon/short-arrow-left.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/short-arrow-left.png) center center no-repeat;
 }
 
 .featured-project-carousel .carousel-control-next-icon {
-    background: url(../images/icon/short-arrow-right.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/short-arrow-right.png) center center no-repeat;
 }
 
 .featured-project-modal .custom-btn {
@@ -2661,13 +2661,13 @@ h1 {
 .case-study-slider .slick-prev,
 .case-study-slider .slick-prev:hover,
 .case-study-slider .slick-prev:focus {
-    background: url(../images/icon/slick-arrow-left-2.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-left-2.png) center center no-repeat;
 }
 
 .case-study-slider .slick-next,
 .case-study-slider .slick-next:hover,
 .case-study-slider .slick-next:focus {
-    background: url(../images/icon/slick-arrow-right-2.png) center center no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/slick-arrow-right-2.png) center center no-repeat;
 }
 
 .case-study-content {
@@ -3009,7 +3009,7 @@ h1 {
 -------------------------------- -- */
 
 .pricing {
-    background: url(../images/pricing-bg-shape.png) center calc(100% + 420px) no-repeat;
+    background: url(https://cdn.statically.io/gh/adicore/file/ba6cf495/Cynic/img/pricing-bg-shape.png) center calc(100% + 420px) no-repeat;
     background-size: 100% auto;
 }
 
