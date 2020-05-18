@@ -203,7 +203,6 @@ Date Created: July 16, 2018
 
 .grad-style-ab,
 .icon-container.grad-style-ab-light::after,
-.inner-page::before,
 .case-study .video-play-btn {
     background-image: -webkit-linear-gradient(45deg, #f18cff, #af46fc);
     background-image: -o-linear-gradient(45deg, #f18cff, #af46fc);
@@ -216,7 +215,6 @@ Date Created: July 16, 2018
 .navbar-toggler span,
 .banner::before,
 .banner::after,
-.body-bg-style-2.inner-page::before,
 .featured-item::before,
 .small-agency-case-study::before,
 .small-agency-case-study::after,
@@ -230,7 +228,6 @@ Date Created: July 16, 2018
 
 .grad-style-ef,
 .icon-container.grad-style-ef-light::after,
-.body-bg-style-3.inner-page::before,
 .small-agency-case-study::after {
     background-image: -webkit-linear-gradient(45deg, #9a9fff, #6245fe);
     background-image: -o-linear-gradient(45deg, #9a9fff, #6245fe);
