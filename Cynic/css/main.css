@@ -2061,24 +2061,8 @@ h1 {
     left: -12%;
 }
 
-
-
-
-
-
-
 /* -- Services css
 -------------------------------------- -- */
-
-.content-block {
-    height: 100%;
-    display: block;
-    background: #fff;
-    border-radius: 10px;
-    position: relative;
-    z-index: 2;
-    outline: none;
-}
 
 .content-block img {
     width: 100%;
