@@ -2362,11 +2362,6 @@ h1 {
     transition: all 1s;
 }
 
-.featured-project-showcase,
-.blog-grid {
-    padding-top: 4rem;
-}
-
 .featured-project-showcase .custom-btn {
     margin-bottom: 6rem;
 }
