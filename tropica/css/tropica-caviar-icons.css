@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'tropica-caviar-icons';
-  src:  url('../fonts/tropica-caviar-icons.eot?6hjthj');
-  src:  url('../fonts/tropica-caviar-icons.eot?6hjthj#iefix') format('embedded-opentype'),
-    url('../fonts/tropica-caviar-icons.ttf?6hjthj') format('truetype'),
-    url('../fonts/tropica-caviar-icons.woff?6hjthj') format('woff'),
-    url('../fonts/tropica-caviar-icons.svg?6hjthj#tropica-caviar-icons') format('svg');
+  src:  url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.eot?6hjthj');
+  src:  url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.eot?6hjthj#iefix') format('embedded-opentype'),
+    url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.ttf?6hjthj') format('truetype'),
+    url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.woff?6hjthj') format('woff'),
+    url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.svg?6hjthj#tropica-caviar-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
