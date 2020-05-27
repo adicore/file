@@ -99,7 +99,7 @@ $(document).ready(function () {
 		b = $(".contact-form-wrapper .contact-form-email").val(),
 		c = $(".contact-form-wrapper .form2-phone").val(),
 		d = $(".contact-form-wrapper .form-website").val(),
-		e = $(".contact-form-wrapper .theservices .form-check input").val(),
+		e = $(".contact-form-wrapper .theservices .checkbox-holder input").val(),
                 f = $(".contact-form-wrapper .Budget #budget").val(),
 		g = $(".contact-form-wrapper .themsg .form2msg").val(),
                 a = "New Order:\n_____________________________________\n\nName: " + a + "\nEmail: " + b + "\nPhone Number: " + c + "\nWebsite: " + d + "\nProject: " + e + "\nBudget: " + f + "\n_____________________________________\n\n" + g + "\n_____________________________________";
