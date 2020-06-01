@@ -2820,6 +2820,11 @@ input[type=file] {
   background-size: cover;
 }
 
+.app-development-banner {
+  background: #eeeeee url(https://cdn.statically.io/gh/adicore/file/3a6fd002/tropica/img/App-bg.webp) center top no-repeat;
+  background-size: cover;
+}
+
 .contact-banner {
   background: #eeeeee url(https://cdn.statically.io/gh/adicore/file/fb79cd60/tropica/img/contact-us.jpg) center top no-repeat;
   background-size: cover;
