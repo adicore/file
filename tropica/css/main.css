@@ -333,11 +333,6 @@ button,
   cursor: pointer;
 }
 
-.sektion {
-  padding-top: 8.5rem;
-  padding-bottom: 6rem;
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
@@ -387,10 +382,6 @@ button,
 
 .nav-item.active .nav-link {
   color: #5c81fa !important;
-}
-
-.grey-bg {
-  background-color: #f9fafb;
 }
 
 .grad-bg {
@@ -3041,11 +3032,6 @@ input[type=file] {
 
 /* -- Blog page styling
 --------------------------------- -- */
-
-.blog-posts,
-.blog-details {
-  padding-top: 9rem;
-}
 
 .blog-posts aside,
 .blog-details aside {
