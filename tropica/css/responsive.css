@@ -859,14 +859,14 @@
   .job-description .description-box .list-box li::after {
     top: 0;
   }
-  article.blog-item .article-head .post-date {
+  article.bloq-item .article-head .post-date {
     margin-bottom: 25px;
   }
-  article.blog-item .article-head .post-title .post-info a {
+  article.bloq-item .article-head .post-title .post-info a {
     font-size: 14px;
     line-height: 26px;
   }
-  article.blog-item .primary-btn {
+  article.bloq-item .primary-btn {
     font-size: 16px;
     line-height: 42px;
   }
