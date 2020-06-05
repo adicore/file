@@ -283,11 +283,6 @@ body.visible>.body-overlay {
   z-index: 9998;
 }
 
-body>.main {
-  padding-bottom: 11rem;
-  background: #ffffff;
-}
-
 h1,
 h2,
 h3,
