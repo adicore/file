@@ -414,9 +414,6 @@
   .nicescroll-cursors {
     width: 2px !important;
   }
-  body>.main {
-    padding-bottom: 8rem;
-  }
   h1 {
     font-size: 32px;
     line-height: 6rem;
