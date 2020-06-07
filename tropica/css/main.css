@@ -4289,7 +4289,7 @@ input[type=file] {
 }
 
 .stars-90::after {
-  width: 90%;
+  width: 100%;
 }
 
 .stars-100::after {
