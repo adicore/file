@@ -1,12 +1,12 @@
 
 {
   "name": "Digitalvy",
-  "short_name": "DV",
+  "short_name": "DigitalVy",
   "description": "Digital Agency Service",
   "lang": "en-US",
   "display": "standalone",
   "background_color": "#27468d",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://www.digitalvy.com/?utm_source=homescreen",
   "theme_color": "#395697",
   "orientation": "portrait",
   "icons": [
