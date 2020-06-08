@@ -1,0 +1,49 @@
+
+{
+  "name": "Digitalvy",
+  "short_name": "DV",
+  "description": "Digital Agency Service",
+  "lang": "en-US",
+  "display": "standalone",
+  "background_color": "#27468d",
+  "start_url": "/?utm_source=homescreen",
+  "theme_color": "#395697",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/android-icon-36x36.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/android-icon-72x72.png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/android-icon-96x96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/apple-icon-120x120.png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/android-icon-144x144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/apple-icon-152x152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/android-icon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn.statically.io/gh/adicore/file/c22e9308/tropica/icon/ms-icon-310x310.png",
+      "sizes": "310x310"
+    }
+  ],
+  "serviceworker": {
+    "src": "./sw.js"
+  }
+}
