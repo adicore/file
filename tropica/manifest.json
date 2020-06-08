@@ -44,6 +44,6 @@
     }
   ],
   "serviceworker": {
-    "src": "https://cdn.statically.io/gh/adicore/file/52561f13/tropica/sw.js"
+    "src": "https://static.digitalvy.com/sw.js"
   }
 }
