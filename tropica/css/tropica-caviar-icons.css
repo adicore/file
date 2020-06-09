@@ -6,6 +6,7 @@
     url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.woff?6hjthj') format('woff'),
     url('https://cdn.statically.io/gh/adicore/file/3494a968/tropica/fonts/tropica-caviar-icons.svg?6hjthj#tropica-caviar-icons') format('svg');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 
