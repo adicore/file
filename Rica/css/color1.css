@@ -2223,7 +2223,7 @@ section .black-layer:before {
       color: black;
       font-weight: 800;
       line-height: 1.5; }
-    .blog-section .blog-box .blog-content h6 {
+    .blog-section .blog-box .blog-content .post_summary {
       font-size: 14px;
       color: #999999;
       font-weight: 600;
