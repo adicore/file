@@ -676,7 +676,7 @@ header {
           font-size: 16px;
           font-weight: 900;
           background-color: transparent;
-          background: url(../images/icon/down.png) no-repeat 80%;
+          background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down.png) no-repeat 80%;
           position: relative;
           cursor: pointer; }
           header .menu .header-right .front-setting select option {
@@ -787,7 +787,7 @@ header {
       background-color: #f3f3f5; }
       header.light_header .menu .header-right .front-setting select {
         color: #222222;
-        background: url(../images/icon/down-black.png) no-repeat 80%; }
+        background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down-black.png) no-repeat 80%; }
     header.light_header .menu .header-right .user.user-light {
       background-color: #f3f3f5; }
       header.light_header .menu .header-right .user.user-light i {
@@ -1019,7 +1019,7 @@ header {
 ==========================*/
 .cab-section {
   position: relative;
-  background-image: url("../images/cab-bg.jpg");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/cab-bg.jpg");
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -1244,7 +1244,7 @@ header {
                 justify-content: center;
         height: 100%; }
   .cab-section.flight-section {
-    background-image: url("../images/bg-flight.png"); }
+    background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/bg-flight.png"); }
     .cab-section.flight-section .cloud {
       height: 100%;
       bottom: 0;
@@ -1957,7 +1957,7 @@ section .black-layer:before {
 
 .home_effect .effect_image {
   position: relative;
-  background: url(../images/tour/background/1.jpg);
+  background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/tour-bg1.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3309,7 +3309,7 @@ section .black-layer:before {
     position: absolute;
     top: -12px;
     height: calc(100% - 18px);
-    background: url(../images/restaurant/about.jpg);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/about.jpg);
     border-radius: 25px;
     width: calc(100% - 65px);
     left: 76px;
@@ -3323,7 +3323,7 @@ section .black-layer:before {
     position: absolute;
     top: -20px;
     height: calc(100% - 44px);
-    background: url(../images/restaurant/about.jpg);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/about.jpg);
     border-radius: 25px;
     width: calc(100% - 97px);
     left: 120px;
@@ -3337,7 +3337,7 @@ section .black-layer:before {
     position: absolute;
     bottom: -12px;
     height: calc(100% - 18px);
-    background: url(../images/restaurant/about.jpg);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/about.jpg);
     border-radius: 25px;
     width: calc(100% - 65px);
     right: 76px;
@@ -3351,7 +3351,7 @@ section .black-layer:before {
     position: absolute;
     bottom: -20px;
     height: calc(100% - 44px);
-    background: url(../images/restaurant/about.jpg);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/about.jpg);
     border-radius: 25px;
     width: calc(100% - 97px);
     right: 120px;
@@ -3496,7 +3496,7 @@ section .black-layer:before {
     .ticket-section .ticket-box .content:after {
       content: "";
       position: absolute;
-      background-image: url(../images/zig-zag.png);
+      background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag.png);
       right: -10px;
       height: 100%;
       width: 10px;
@@ -3504,7 +3504,7 @@ section .black-layer:before {
     .ticket-section .ticket-box .content:before {
       content: "";
       position: absolute;
-      background-image: url(../images/zig-zag.png);
+      background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag.png);
       left: -10px;
       height: 100%;
       width: 10px;
@@ -5250,7 +5250,7 @@ section .black-layer:before {
     .top-category .top_box .new-label {
       position: absolute;
       right: -20px;
-      background-image: url(../images/label.png);
+      background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/label.png);
       bottom: -20px;
       background-size: cover;
       background-repeat: no-repeat;
@@ -5309,7 +5309,7 @@ section .black-layer:before {
 16. Filter section css
 ==========================*/
 .filter-section {
-  background-image: url("../images/restaurant/background.png");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/background.png");
   background-size: cover;
   background-repeat: no-repeat; }
   .filter-section .filters {
@@ -5582,7 +5582,7 @@ section .black-layer:before {
         background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(231, 56, 39, 0)));
         background: linear-gradient(to right, white 0%, rgba(231, 56, 39, 0) 100%); }
   .full-banner.banner-section {
-    background-image: url(../images/flights/bg-2.jpg);
+    background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/flights-bg-2.jpg);
     background-size: cover;
     background-position: center center; }
     .full-banner.banner-section .place-image {
@@ -5632,7 +5632,7 @@ section .black-layer:before {
 .food-banner {
   padding: 160px 0;
   position: relative;
-  background-image: url("../images/restaurant/bg-2.png");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/bg-2.png");
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: bottom; }
@@ -5729,7 +5729,7 @@ section .black-layer:before {
 .discount-banner {
   padding: 215px 0;
   position: relative;
-  background-image: url("../images/restaurant/bg-3.png");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/bg-3.png");
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center; }
@@ -5869,7 +5869,7 @@ section .black-layer:before {
       .deals .deals-box .left-portion:after {
         content: "";
         position: absolute;
-        background-image: url(../images/zig-zag.png);
+        background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag.png);
         right: -10px;
         height: 100%;
         width: 10px;
@@ -5877,7 +5877,7 @@ section .black-layer:before {
       .deals .deals-box .left-portion:before {
         content: "";
         position: absolute;
-        background-image: url(../images/zig-zag.png);
+        background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag.png);
         left: -10px;
         height: 100%;
         width: 10px;
@@ -5919,7 +5919,7 @@ section .black-layer:before {
         margin-bottom: 15px; }
 
 .detail-section {
-  background-image: url(../images/flights/bg.jpg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/flights-bg.jpg);
   background-size: cover;
   background-position: center center; }
   .detail-section .detail-box {
@@ -5973,7 +5973,7 @@ section .black-layer:before {
       padding: 30px;
       -webkit-box-shadow: 2.5px 4.33px 25px 0 rgba(0, 0, 0, 0.1);
               box-shadow: 2.5px 4.33px 25px 0 rgba(0, 0, 0, 0.1);
-      background-image: url("../images/flights/sky2.jpg");
+      background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/sky2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-blend-mode: overlay;
@@ -6206,7 +6206,7 @@ section .black-layer:before {
   margin: 0 15px; }
 
 .flight-detail {
-  background-image: url(../images/flights/bg.jpg);
+  background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/flights-bg.jpg);
   background-size: cover;
   background-position: center center; }
   .flight-detail .title-2 h2 {
@@ -6451,7 +6451,7 @@ section .black-layer:before {
 
 .book-table {
   position: relative;
-  background-image: url("../images/restaurant/table-bg.png");
+  background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/table-bg.png");
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center; }
@@ -6621,7 +6621,7 @@ section .black-layer:before {
       right: -0;
       height: 100%;
       display: block;
-      background: url("../images/icon/step-arrow.png") no-repeat center center; }
+      background: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/step-arrow.png") no-repeat center center; }
     .process-steps .step-bg .row {
       margin-left: -50px;
       margin-right: -50px; }
@@ -8524,7 +8524,7 @@ section .black-layer:before {
     cursor: auto; }
     .view-map .arrow:after {
       content: "";
-      background-image: url("../images/icon/arrow.png");
+      background-image: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/arrow.png");
       width: 50px;
       height: 50px;
       position: absolute;
@@ -9483,7 +9483,7 @@ section .black-layer:before {
         border: 1px solid #ced4da;
         border-radius: 0.25rem;
         -webkit-appearance: none;
-        background: url(../images/icon/down-black.png) no-repeat 95%; }
+        background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down-black.png) no-repeat 95%; }
       .single-section .single-sidebar .book-btn-section .rooms-section {
         position: relative;
         margin-top: 10px; }
@@ -12837,7 +12837,7 @@ section .black-layer:before {
   .effect-cls:after {
     content: "";
     position: absolute;
-    background: url(../images/effect.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/effect.png);
     bottom: -12px;
     width: 100%;
     height: 110px;
@@ -12849,7 +12849,7 @@ section .black-layer:before {
 .effect-cls-up:before {
   content: "";
   position: absolute;
-  background: url(../images/effect.png);
+  background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/effect.png);
   top: -1px;
   width: 100%;
   height: 85px;
@@ -14580,14 +14580,14 @@ footer.footer-bg {
   .zig-zag-effect:after {
     position: absolute;
     content: "";
-    background: url("../images/zig-zag-1.png");
+    background: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag-1.png");
     bottom: 0;
     width: 100%;
     height: 5px; }
   .zig-zag-effect:before {
     position: absolute;
     content: "";
-    background: url(../images/zig-zag-1.png);
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/zig-zag-1.png);
     top: 0;
     width: 100%;
     height: 5px;
@@ -15072,7 +15072,7 @@ footer.footer-bg {
 .flight {
   width: calc(140px + (200 - 140) * ((100vw - 320px) / (1920 - 320)));
   height: calc(70px + (100 - 70) * ((100vw - 320px) / (1920 - 320)));
-  background: url("../images/flights/airliner.png") center no-repeat;
+  background: url("https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/airliner.png") center no-repeat;
   background-size: 100%;
   position: absolute;
   bottom: -4px;
@@ -15976,7 +15976,7 @@ body.rtl {
 
 .rtl header .menu .header-right .front-setting select {
   padding: 5px 10px 4px 28px;
-  background: url(../images/icon/down.png) no-repeat 20%; }
+  background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down.png) no-repeat 20%; }
 
 .rtl header .main-navbar .nav-menu > li {
   float: right; }
@@ -16875,7 +16875,7 @@ body.rtl {
     border-right: 0 !important;
     border-left: 1px solid #ced4da !important; }
   .rtl .single-section .single-sidebar .book-btn-section .selector select {
-    background: url(../images/icon/down-black.png) no-repeat 5%; }
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down-black.png) no-repeat 5%; }
   .rtl .single-section .single-sidebar .book-btn-section .rooms-section .selector-box {
     text-align: right; }
     .rtl .single-section .single-sidebar .book-btn-section .rooms-section .selector-box .room-cls .qty-box label {
@@ -17782,7 +17782,7 @@ body.dark {
     background-color: rgba(255, 255, 255, 0.14); }
     .dark header.light_header .menu .header-right .front-setting select {
       color: white;
-      background: url(../images/icon/down.png) no-repeat 80%; }
+      background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down.png) no-repeat 80%; }
       .dark header.light_header .menu .header-right .front-setting select option {
         background-color: #2b2b2b;
         color: #cfd4da; }
@@ -18215,7 +18215,7 @@ body.dark {
   .dark .detail-section.no-bg-detail .detail-box .upper-part h5 {
     color: white; }
   .dark .detail-section.no-bg-detail .detail-box:hover {
-    background-image: url(../images/flights/sky2.jpg); }
+    background-image: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/sky2.jpg); }
 
 .dark .flight-detail .flight-box {
   background-color: #232323; }
@@ -21175,7 +21175,7 @@ body.dark {
   header .menu .header-right .setting {
     display: block; }
   header .menu .header-right .front-setting select {
-    background: url(../images/icon/down-black.png) no-repeat 80%; }
+    background: url(https://cdn.statically.io/gh/adicore/file/ea29ae00/Rica/images/down-black.png) no-repeat 80%; }
   header .menu .header-right > .front-setting {
     display: none; }
   header .menu .header-right .user {
