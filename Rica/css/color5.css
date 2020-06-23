@@ -20306,8 +20306,7 @@ body.dark {
       .home_section .home.home-70 .home-content {
         height: 60vh; }
     .home_section .home.home-long {
-      background-blend-mode: overlay;
-      background-color: rgba(0, 0, 0, 0.4); }
+      background-blend-mode: overlay; }
       .home_section .home.home-long .home-content {
         -webkit-box-align: center;
             -ms-flex-align: center;
@@ -21241,8 +21240,7 @@ body.dark {
       .home_section .home.home-70 .home-content {
         height: 55vh; }
     .home_section .home.home-long {
-      background-blend-mode: overlay;
-      background-color: rgba(0, 0, 0, 0.3); }
+      background-blend-mode: overlay; }
       .home_section .home.home-long .home-content {
         -webkit-box-align: center;
             -ms-flex-align: center;
